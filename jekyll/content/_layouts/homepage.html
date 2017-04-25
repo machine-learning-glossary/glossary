@@ -1,0 +1,17 @@
+{% include header.html %}
+<article class="pa3 pa5-ns center mw9 mw9-ns">
+  <h1 class="f3 f1-m f-headline-l">{{ site.title }}</h1>
+  <p>
+    {{ site.description }}
+  </p>
+  <ul>
+  <h2>Terms</h2>
+  {% assign pages = site.pages | sort: 'title' %}
+  {% for page in pages %}
+    {% if page.url and page.title and page.url contains 'terms/' %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</article>
+{% include footer.html %}
