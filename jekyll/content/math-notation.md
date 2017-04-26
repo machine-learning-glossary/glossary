@@ -2,7 +2,11 @@
 layout: page
 title: Mathematical Notation
 ---
-# $\odot$ Hadamard Product
+# $\nabla$ [Gradient]({% link terms/gradient.md %})
+The $\nabla$ symbol when seen in front of a vector-valued function
+like $\nabla f(x)$ refers to the function's gradient.
+
+# $\odot$ [Hadamard Product]({% link terms/hadamard-product.md %})
 This circle-dot symbol [can mean a few different things][1], depending on context.
 Typically in machine learning literature, it refers to the Hadamard product
 (component-wise multiplication for matrices).
