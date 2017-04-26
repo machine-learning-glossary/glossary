@@ -21,6 +21,8 @@ description: > # this means to ignore newlines until "baseurl:"
  and statistics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_baseurl: "https://github.com/machine-learning-glossary/glossary/edit/master/jekyll/content/"
+small_page_size: 200 # Minimum amount of characters a completed page should have.
 
 pandoc:
   extensions:
@@ -28,7 +30,7 @@ pandoc:
     - smart
     - mathjax
 
-
+permalink: pretty
 # Build settings
 markdown: Pandoc
 #theme: minima

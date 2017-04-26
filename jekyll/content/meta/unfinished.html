@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Meta: Unfinished Terms"
+---
+<p>
+This page contains links to terms that have short amounts of content. They
+should be expanded and turned into full-fledged glossary entries.
+</p>
+<ul>
+{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
+{% for page in pages %}
+    {% assign page_size = page.content | size %}
+    {% if page_size < site.small_page_size %}
+<li><a href="{{ page.url }}">{{ page.title }}</a>,
+{{ page.content | size }} characters</li>
+    {% endif %}
+{% endfor %}
+</ul>

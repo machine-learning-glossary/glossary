@@ -4,11 +4,12 @@
   <p>
     {{ site.description }}
   </p>
+    <h2>Terms</h2>
   <ul>
-  <h2>Terms</h2>
-  {% assign pages = site.pages | sort: 'title' %}
-  {% for page in pages %}
-    {% if page.url and page.title and page.url contains 'terms/' %}
+{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
+{% for page in pages %}
+    {% assign page_size = page.content | size %}
+    {% if page_size > site.small_page_size %}
     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}

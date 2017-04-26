@@ -4,8 +4,26 @@ title: About
 permalink: /about/
 ---
 
+This is a simple online glossary of terms that are commonly found in machine
+learning papers.
 
-$$
-\int_{-\inf}^{+\inf} x^2 dx
-$$
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Frequently Asked Questions
+
+### Who is the audience for Machine Learning Glossary?
+
+The definitions are written to be understandable for someone with *half of*
+an undergraduate degree in Computer Science. A basic knowledge of software
+engineering, calulus, probability, and statistics is assumed. However,
+anything beyond a basic knowledge should be explained and defined here.
+
+### Who maintains Machine Learning Glossary?
+
+<a href="https://linkedin.com/in/jamesmishra">James Mishra</a> is the maintainer.
+
+### What is the motivation for Machine Learning Glossary?
+
+Machine learning papers have many complicated sounding terms, and common-sense
+definitions and explanations on the Internet can still be too verbose
+or require too much prior knowledge to understand.
+
+Machine Learning Glossary is a fast-loading website filled with simple explanations.

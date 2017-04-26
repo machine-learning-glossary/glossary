@@ -32,8 +32,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.1)
-      jekyll (~> 3.3)
     pandoc-ruby (2.0.1)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -52,7 +50,6 @@ DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
   jekyll-pandoc
-  minima (~> 2.0)
   tzinfo-data
 
 RUBY VERSION
