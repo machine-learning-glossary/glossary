@@ -7,6 +7,10 @@ layout: compress
   <p>
     {{ site.description }}
   </p>
+  <h2>Useful Links</h2>
+  <ul>
+    <li><a href="/math-notation/">Mathematical Notation and Definitions</a></li>
+  </ul>
     <h2>Terms</h2>
   <ul>
 {% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
