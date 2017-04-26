@@ -27,3 +27,11 @@ definitions and explanations on the Internet can still be too verbose
 or require too much prior knowledge to understand.
 
 Machine Learning Glossary is a fast-loading website filled with simple explanations.
+
+### How can I contribute to Machine Learning Glossary?
+
+The source material for Machine Learning Glossary is on
+[Github](https://github.com/machine-learning-glossary/glossary). We welcome
+improvements to existing terms as well as the addition of new terms/
+You can also click on the *Edit this page on Github* link on the footer
+of any page on this website to directly suggest additions.
