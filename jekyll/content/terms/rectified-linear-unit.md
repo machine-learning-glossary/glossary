@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Rectified Linear Unit (ReLU)
 ---
 A Rectified Linear Unit is a common name for a neuron (the "unit")

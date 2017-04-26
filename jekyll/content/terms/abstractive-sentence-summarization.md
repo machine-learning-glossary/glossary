@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Abstractive Sentence Summarization
 ---
 Abstractive sentence summarization refers to creating a shorter version of a

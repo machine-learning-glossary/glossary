@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Independent and Identically Distributed (i.i.d)
 ---
 A collection of random variables is independent and identically distributed

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Gradient
 ---
 The gradient is the vector generalization of the derivative.

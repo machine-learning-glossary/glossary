@@ -23,7 +23,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_baseurl: "https://github.com/machine-learning-glossary/glossary/edit/master/jekyll/content/"
 small_page_size: 200 # Minimum amount of characters a completed page should have.
-
+defaults:
+  - scope:
+      path: "terms"
+    values:
+      layout: page
 pandoc:
   extensions:
     - normalize

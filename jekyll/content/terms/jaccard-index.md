@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Jaccard Index
 ---
 The Jaccard Index is used to calculate the similarity or difference

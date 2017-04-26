@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Bag-of-Words
 ---
 The phrase *bag-of-words* typically refers to a way of representing

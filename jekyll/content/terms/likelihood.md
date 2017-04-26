@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Likelihood
 ---
 In statistics, likelihood is the *hypothetical probability* that a past event

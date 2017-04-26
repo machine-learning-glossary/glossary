@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Hadamard Product
 ---
 The Hadamard product refers to component-wise multiplication of the same dimension.
