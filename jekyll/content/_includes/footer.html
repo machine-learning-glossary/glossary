@@ -1,10 +1,20 @@
+{% capture issue_title %}Improvement for {{ page.path }}{% endcapture %}
+{% capture issue_body %}#Referencing file [{{ page.path}}]({{ site.github_baseurl}}{{ page.path }})
+
+(Describe your issue here)
+
+{% endcapture %}
 <footer class="ph3 ph4-ns pv6 bt b--black-10 black-70">
- 
- Edit <a href="{{ site.github_baseurl }}{{ page.path }}"
- >this page on Github</a>
     <p class="f6 db b lh-solid">
-        Found an inaccuracy? Email
+        Want to improve this page?
+        <a class="link" href="{{ site.github_baseurl }}{{ page.path }}">Edit this page on Github</a>
+    </p>
+    <p class="f6 db b lh-solid">
+        Found an inaccuracy? Have suggestions for improvements? Email
         <a class="link" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        or <a class="link" title="Create an issue on Github"
+        href="https://github.com/machine-learning-glossary/glossary/issues/new?title={{ issue_title | url_encode }}&body={{ issue_body | url_encode }}"
+        >create an issue on Github</a>.
     </p>
 </footer>
 
