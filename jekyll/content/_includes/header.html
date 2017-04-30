@@ -1,18 +1,49 @@
+{% capture issue_title %}Improvement for {{ page.path }}{% endcapture %}
+{% capture issue_body %}# Referencing file [{{ page.path}}]({{ site.github_baseurl}}{{ page.path }})
+
+(Describe your issue here)
+
+{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+        <style type="text/css">
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+        </style>
         <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
     </head>
     <body>
-<header class="bg-black-90 w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
-  <nav class="f6 fw6 ttu tracked">
+<header class="bg-black-90 w-100 ph3 pv3 pv4-ns ph4-m ph5-l no-print">
+  <nav class="f6 fw6 ttu tracked no-print">
     <a class="link dim white dib mr3" href="/" title="Home">Home</a>
     <a class="link dim white dib mr3" href="/about/" title="About">About</a>
     <a class="link dim white dib mr3" href="/meta/" title="Store">Meta</a>
     <a class="link dim white dib" href="https://github.com/machine-learning-glossary/glossary" title="Github">Github</a>
   </nav>
 </header>
+
+<div class="flex items-center justify-center pa4 bg-lightest-blue navy no-print">
+  <svg class="w1" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
+    <title>info icon</title>
+    <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
+  </svg>
+  <span class="lh-title ml3">
+        Want to improve this page?
+        <a class="link" href="{{ site.github_baseurl }}{{ page.path }}"
+        >Edit this page</a> or
+        <a class="link" title="Create an issue on Github"
+        href="https://github.com/machine-learning-glossary/glossary/issues/new?title={{ issue_title | url_encode }}&body={{ issue_body | url_encode }}"
+        >report an issue</a>.
+
+  </span>
+</div>
