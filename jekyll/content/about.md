@@ -32,6 +32,8 @@ Machine Learning Glossary is a fast-loading website filled with simple explanati
 
 The source material for Machine Learning Glossary is on
 [Github](https://github.com/machine-learning-glossary/glossary). We welcome
-improvements to existing terms as well as the addition of new terms/
-You can also click on the *Edit this page on Github* link on the footer
-of any page on this website to directly suggest additions.
+improvements to existing terms as well as the addition of new terms.
+
+At the top of each page, there are links to *Edit this page*
+or *Report an issue*. You will need a Github account to
+suggest edits or create issues.
