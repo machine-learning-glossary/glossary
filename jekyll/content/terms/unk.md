@@ -12,18 +12,16 @@ This is what such a transformation might look like. The below
 is an example of a source document in a corpus with
 common English words.
 
-```
-Today I'll bake; tomorrow I'll brew, 
-Then I'll fetch the queen's new child, 
-It is good that no one knows, 
-Rumpelstiltskin is my name.
-```
+
+> Today I'll bake; tomorrow I'll brew, 
+> Then I'll fetch the queen's new child, 
+> It is good that no one knows, 
+> **Rumpelstiltskin** is my name.
 
 Every word in the above quote is common in English, except for
 Rumpelstiltskin, which is replaced as following:
-```
-Today I'll bake; tomorrow I'll brew, 
-Then I'll fetch the queen's new child, 
-It is good that no one knows, 
-<unk> is my name.
-```
+
+> Today I'll bake; tomorrow I'll brew, 
+> Then I'll fetch the queen's new child, 
+> It is good that no one knows, 
+> **&lt;unk&gt;** is my name.
