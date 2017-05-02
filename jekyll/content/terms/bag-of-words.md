@@ -9,7 +9,14 @@ but disregards the order of the words.
 
 Often, bag-of-words models will only include the $k$ most frequent words in a corpus.
 This reduces the memory needed to store relatively-infrequent words, and the
-underlying representation of the document is mostly the same.
+underlying representation of the document is mostly the same because
+common words dominate the document.
+
+Bag-of-words models are often highly effective at representing documents
+in tasks like classification, clustering, or topic modeling. But they
+can struggle with tasks where word order matters, like sentiment analysis
+and machine translation. For example, in a bag-of-words model, the phrase
+*"dog bites man"* and *"man bites dog"* have identical representations.
 
 See also:
 
