@@ -1,0 +1,12 @@
+{% if page.related_terms %}
+{% assign all_terms = site.pages | where_exp:"item","item.url contains 'terms/'" %}
+<h2>Related Terms</h2>
+<ul>
+{% for term in all_terms %}
+    {% assign term_filename = term.path | split: "/" | last | split: "." | first %}
+    {% if page.related_terms contains term_filename %}
+        <li><a href="{{ term.url }}">{{ term.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% endif %}
