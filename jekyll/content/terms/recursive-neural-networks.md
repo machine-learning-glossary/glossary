@@ -1,3 +1,0 @@
----
-title: Recursive Neural Networks
----

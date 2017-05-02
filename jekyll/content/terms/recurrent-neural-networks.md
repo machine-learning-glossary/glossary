@@ -1,3 +1,0 @@
----
-title: Recurrent Neural Networks
----
