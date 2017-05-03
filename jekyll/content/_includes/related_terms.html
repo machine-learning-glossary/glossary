@@ -1,12 +1,21 @@
-{% if page.related_terms %}
+{% assign page_filename = page.path | split: "/" | last | split: "." | first %}
 {% assign all_terms = site.pages | where_exp:"item","item.url contains 'terms/'" %}
+{% assign display_related_terms = false %}
+{% capture related_terms_html %}
 <h2>Related Terms</h2>
 <ul>
 {% for term in all_terms %}
     {% assign term_filename = term.path | split: "/" | last | split: "." | first %}
     {% if page.related_terms contains term_filename %}
+        {% assign display_related_terms = true %}
+        <li><a href="{{ term.url }}">{{ term.title }}</a></li>
+    {% elsif term.related_terms and term.related_terms contains page_filename %}
+        {% assign display_related_terms = true %}
         <li><a href="{{ term.url }}">{{ term.title }}</a></li>
     {% endif %}
 {% endfor %}
 </ul>
+{% endcapture %}
+{% if display_related_terms %}
+{{ related_terms_html }}
 {% endif %}

@@ -35,7 +35,9 @@ The `title` refers to the title of the term. All words should be capitalized
 when possible.
 
 The `related_terms` are the filenames (without directory path or extension)
-of related terms within the glossary.
+of related terms within the glossary. Each term's page will list the related
+terms in its Markdown file *and all references to the term from other terms'
+`related_terms` lists*.
 
 Links external to the glossary can be placed in the `references` list as
 quoted, markdown-formatted URLs.
