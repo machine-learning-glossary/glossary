@@ -1,5 +1,7 @@
 ---
 title: Tree-LSTM
+related_terms:
+ - long-short-term-memory-lstm
 ---
 Tree-LSTMs are a variant of Long Short Term Memory (LSTM) neural networks.
 
