@@ -1,5 +1,7 @@
 ---
 title: Chunking
+related_terms:
+ - natural-language-processing
 ---
 The paper [Natural Language Processing (almost) from Scratch][1] describes chunking as:
 
