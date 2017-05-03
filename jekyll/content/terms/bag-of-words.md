@@ -1,5 +1,8 @@
 ---
 title: Bag-of-Words
+references:
+ - "[Bag-of-words model - Wikipedia](https://en.wikipedia.org/wiki/Bag-of-words_model)"
+ - "[Bag of Words Meets Bags of Popcorn - Kaggle](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words)"
 ---
 The phrase *bag-of-words* typically refers to a way of representing
 text in natural language processing, although [it has been applied to computer vision][1].
@@ -18,11 +21,4 @@ can struggle with tasks where word order matters, like sentiment analysis
 and machine translation. For example, in a bag-of-words model, the phrase
 *"dog bites man"* and *"man bites dog"* have identical representations.
 
-See also:
-
- - [Bag-of-words model][2]
- - [Bag of Words Meets Bags of Popcorn - Kaggle][3]
- 
 [1]: https://en.wikipedia.org/wiki/Bag-of-words_model_in_computer_vision
-[2]: https://en.wikipedia.org/wiki/Bag-of-words_model
-[3]: https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
