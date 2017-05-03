@@ -6,10 +6,10 @@
 <ul>
 {% for term in all_terms %}
     {% assign term_filename = term.path | split: "/" | last | split: "." | first %}
-    {% if page.related_terms contains term_filename %}
+    {% if page.related_terms contains term_filename and term.url and term.title %}
         {% assign display_related_terms = true %}
         <li><a href="{{ term.url }}">{{ term.title }}</a></li>
-    {% elsif term.related_terms and term.related_terms contains page_filename %}
+    {% elsif term.related_terms and term.related_terms contains page_filename and term.url and term.title %}
         {% assign display_related_terms = true %}
         <li><a href="{{ term.url }}">{{ term.title }}</a></li>
     {% endif %}
