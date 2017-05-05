@@ -1,3 +1,3 @@
 ---
-title: Filter (convolution)
+title: Filter
 ---

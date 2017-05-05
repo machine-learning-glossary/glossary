@@ -1,3 +1,3 @@
 ---
-title: ADAM (optimizer)
+title: ADAM
 ---

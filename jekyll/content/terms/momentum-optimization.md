@@ -1,3 +1,3 @@
 ---
-title: Momentum (optimization)
+title: Momentum
 ---

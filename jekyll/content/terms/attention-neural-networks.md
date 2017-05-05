@@ -1,3 +1,3 @@
 ---
-title: Attention (neural networks)
+title: Attention
 ---

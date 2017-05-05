@@ -1,3 +1,3 @@
 ---
-title: Beam Search (machine translation?)
+title: Beam Search
 ---
