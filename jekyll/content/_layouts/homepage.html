@@ -2,6 +2,16 @@
 layout: compress
 ---
 {% include header.html %}
+{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
+{% capture term_list %}
+{% for page in pages %}
+    {% assign page_size = page.content | size %}
+    {% if page.title and page_size > site.small_page_size %}
+    {% capture devnull %}{% increment filled_pages %}{% endcapture %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
 <article class="pa3 pa5-ns center mw9 mw9-ns">
   <h1 class="f3 f1-m f-headline-l">{{ site.title }}</h1>
   <p>
@@ -13,14 +23,9 @@ layout: compress
     <li><a href="/acronyms/">List of Acronyms</a></li>
   </ul>
     <h2>Terms</h2>
+    <p>{{ filled_pages }} terms defined below, and <a href="/meta/unfinished/">{{ pages.size | minus: filled_pages }} undefined terms</a>.</p>
   <ul>
-{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
-{% for page in pages %}
-    {% assign page_size = page.content | size %}
-    {% if page.title and page_size > site.small_page_size %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endfor %}
+    {{ term_list }}
   </ul>
 </article>
 {% include footer.html %}
