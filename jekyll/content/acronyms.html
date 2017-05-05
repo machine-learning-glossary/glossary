@@ -1,0 +1,26 @@
+---
+layout: page
+title: "List of Acronyms"
+---
+<p>
+This page contains alphabetically-sorted links to all terms with well-known acronyms.
+</p>
+<ul>
+{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
+
+{% capture acronym_list_str %}
+    {% for page in pages %}
+        {% assign split_title = page.title | split: '(' %}
+        {% if split_title[1] %}
+            {% assign acronym = split_title[1] | split: ')' %}
+[{{ acronym[0] | replace: " ", "###" }}###-###{{ page.title | replace: " ", "###" }}]({{ page.url }})(((
+        {% endif %}
+    {% endfor %}
+{% endcapture %}
+
+{% assign acronym_list = acronym_list_str | strip_newlines | remove: " " | split: "(((" %}
+{% assign sorted_acronym_list = acronym_list | sort %}
+{% for listed_acronym in sorted_acronym_list %}
+<li>{{ listed_acronym | replace: "###", " " | markdownify }}</li>
+{% endfor %}
+</ul>

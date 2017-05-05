@@ -30,9 +30,19 @@ references:
  - "[A Third URL](https://facebook.com)"
 ---
 ```
+### Titles
+The `title` refers to the title of the term.
 
-The `title` refers to the title of the term. All words should be capitalized
-when possible.
+Terns with acronyms should have the acronym following the term:
+```
+Generative Adversarial Network (GAN)
+Harmonic Precision-Recall Mean (F1 Score)
+Kullback-Leibler (KL) Divergence
+```
+
+Acronyms are then found and collected at `/meta/acronyms`.
+
+### Metadata
 
 The `related_terms` are the filenames (without directory path or extension)
 of related terms within the glossary. Each term's page will list the related
