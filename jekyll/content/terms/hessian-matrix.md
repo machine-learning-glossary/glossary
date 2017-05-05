@@ -1,3 +1,3 @@
 ---
-title: Hessian Matrix
+title: Hessian matrix
 ---

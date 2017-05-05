@@ -1,3 +1,3 @@
 ---
-title: Jacobian Matrix
+title: Jacobian matrix
 ---

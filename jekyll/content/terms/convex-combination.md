@@ -1,5 +1,5 @@
 ---
-title: Convex Combination
+title: Convex combination
 ---
 A convex combination is a linear combination, where all
 the coefficients are greater than 0 and sum to 1.

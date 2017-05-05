@@ -1,3 +1,3 @@
 ---
-title: Autocorrelation Matrix
+title: Autocorrelation matrix
 ---

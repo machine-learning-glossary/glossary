@@ -1,3 +1,3 @@
 ---
-title: Confusion Matrix
+title: Confusion matrix
 ---

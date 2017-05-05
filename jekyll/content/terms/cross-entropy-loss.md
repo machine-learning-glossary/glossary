@@ -1,3 +1,3 @@
 ---
-title: Cross-Entropy Loss
+title: Cross-Entropy loss
 ---

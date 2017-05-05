@@ -1,3 +1,3 @@
 ---
-title: Hinge Loss
+title: Hinge loss
 ---

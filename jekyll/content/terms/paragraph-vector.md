@@ -1,5 +1,5 @@
 ---
-title: Paragraph Vector
+title: Paragraph vector
 related_terms:
  - doc2vec
  - bag-of-words

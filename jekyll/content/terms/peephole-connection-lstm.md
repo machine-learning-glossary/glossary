@@ -1,5 +1,5 @@
 ---
-title: Peephole Connection
+title: Peephole connection
 related_terms:
  - long-short-term-memory-lstm
 ---

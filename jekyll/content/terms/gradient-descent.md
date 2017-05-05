@@ -1,3 +1,3 @@
 ---
-title: Gradient Descent
+title: Gradient descent
 ---

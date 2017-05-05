@@ -1,3 +1,3 @@
 ---
-title: Wronskian Matrix
+title: Wronskian matrix
 ---

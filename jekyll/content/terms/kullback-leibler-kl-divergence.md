@@ -1,3 +1,3 @@
 ---
-title: Kullback-Leibler (KL) Divergence
+title: Kullback-Leibler (KL) divergence
 ---

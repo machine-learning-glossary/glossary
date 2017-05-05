@@ -1,3 +1,3 @@
 ---
-title: Laplacian Matrix
+title: Laplacian matrix
 ---

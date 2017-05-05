@@ -1,5 +1,5 @@
 ---
-title: Bag-of-Words
+title: Bag-of-words
 references:
  - "[Bag-of-words model - Wikipedia](https://en.wikipedia.org/wiki/Bag-of-words_model)"
  - "[Bag of Words Meets Bags of Popcorn - Kaggle](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words)"

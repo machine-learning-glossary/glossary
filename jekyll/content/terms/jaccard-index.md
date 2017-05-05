@@ -1,7 +1,7 @@
 ---
-title: Jaccard Index
+title: Jaccard index
 ---
-The Jaccard Index is used to calculate the similarity or difference
+The Jaccard index is used to calculate the similarity or difference
 of sample sets.
 
 $$

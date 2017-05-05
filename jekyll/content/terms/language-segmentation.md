@@ -1,5 +1,5 @@
 ---
-title: Language Segmentation
+title: Language segmentation
 ---
 This phrase is most concisely described in in [this work by David Alfter][1]:
 

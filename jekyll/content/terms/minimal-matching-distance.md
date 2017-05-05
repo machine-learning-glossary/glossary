@@ -1,3 +1,3 @@
 ---
-title: Minimal Matching Distance
+title: Minimal matching distance
 ---

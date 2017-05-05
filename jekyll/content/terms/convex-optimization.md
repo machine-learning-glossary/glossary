@@ -1,3 +1,3 @@
 ---
-title: Convex Optimization
+title: Convex optimization
 ---

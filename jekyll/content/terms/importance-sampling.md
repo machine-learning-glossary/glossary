@@ -1,3 +1,3 @@
 ---
-title: Importance Sampling
+title: Importance sampling
 ---

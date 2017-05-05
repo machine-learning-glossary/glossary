@@ -1,3 +1,3 @@
 ---
-title: K-Means Clustering
+title: K-Means clustering
 ---

@@ -1,3 +1,3 @@
 ---
-title: Hamming Distance
+title: Hamming distance
 ---

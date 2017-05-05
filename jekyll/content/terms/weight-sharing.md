@@ -1,3 +1,3 @@
 ---
-title: Weight Sharing
+title: Weight sharing
 ---

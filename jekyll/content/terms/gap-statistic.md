@@ -1,5 +1,5 @@
 ---
-title: Gap Statistic
+title: Gap statistic
 related_terms:
  - k-means-clustering
 references:

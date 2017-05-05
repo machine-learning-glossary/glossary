@@ -1,3 +1,3 @@
 ---
-title: Cosine Similarity
+title: Cosine similarity
 ---

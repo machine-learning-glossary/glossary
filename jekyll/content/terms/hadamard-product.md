@@ -1,5 +1,5 @@
 ---
-title: Hadamard Product
+title: Hadamard product
 ---
 The Hadamard product refers to component-wise multiplication of the same dimension.
 The $\odot$ symbol is commonly used as the Hadamard product operator.

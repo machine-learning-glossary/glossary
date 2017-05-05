@@ -1,3 +1,3 @@
 ---
-title: Convolutional Neural Networks
+title: Convolutional Neural Networks (CNN)
 ---

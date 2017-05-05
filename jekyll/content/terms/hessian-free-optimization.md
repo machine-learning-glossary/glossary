@@ -1,5 +1,5 @@
 ---
-title: Hessian-free Optimization
+title: Hessian-free optimization
 ---
 See also:
 
