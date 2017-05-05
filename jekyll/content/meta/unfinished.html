@@ -12,7 +12,7 @@ should be expanded and turned into full-fledged glossary entries.
     {% assign page_size = page.content | size %}
     {% if page_size < site.small_page_size %}
 <li><a href="{{ page.url }}">{{ page.title }}</a>,
-{{ page.content | size }} characters</li>
+{{ page.content | size }} character(s)</li>
     {% endif %}
 {% endfor %}
 </ul>
