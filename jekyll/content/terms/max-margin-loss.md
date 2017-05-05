@@ -1,0 +1,3 @@
+---
+title: Max-margin loss
+---
