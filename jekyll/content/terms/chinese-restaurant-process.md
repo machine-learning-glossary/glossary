@@ -1,0 +1,3 @@
+---
+title: Chinese Restaurant Process
+---
