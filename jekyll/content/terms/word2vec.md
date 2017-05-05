@@ -22,4 +22,4 @@ Vector Space](https://arxiv.org/abs/1301.3781) by Mikolov et al.
 
 The source code was originally hosted on
 [Google Code](https://code.google.com/p/word2vec) but is now
-located at [on Github](https://github.com/tmikolov/word2vec).
+located [on Github](https://github.com/tmikolov/word2vec).
