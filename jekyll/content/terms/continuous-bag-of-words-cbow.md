@@ -1,5 +1,8 @@
 ---
 title: Continuous-Bag-of-Words (CBOW)
+related_terms:
+ - bag-of-words
+ - word2vec
 ---
 Continuous Bag of Words refers to a algorithm
 that predicts a target word from its
