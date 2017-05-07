@@ -1,5 +1,5 @@
 ---
-title: K-Means clustering
+title: Additive Clustering
 related_terms:
  - clustering
 ---

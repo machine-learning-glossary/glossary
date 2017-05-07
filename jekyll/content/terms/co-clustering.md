@@ -1,5 +1,5 @@
 ---
-title: K-Means clustering
+title: Co-clustering
 related_terms:
  - clustering
 ---
