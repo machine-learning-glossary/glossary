@@ -1,5 +1,7 @@
 ---
 title: Language segmentation
+related_terms:
+ - natural-language-processing
 ---
 This phrase is most concisely described in in [this work by David Alfter][1]:
 

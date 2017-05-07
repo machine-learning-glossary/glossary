@@ -2,6 +2,7 @@
 title: Coreference resolution
 related_terms:
  - named-entity-recognition-ner
+ - natural-language-processing
 ---
 The Stanford NLP group [defines coreference resolution][1] as:
 
