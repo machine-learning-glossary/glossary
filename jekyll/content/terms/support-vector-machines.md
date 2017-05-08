@@ -1,3 +1,0 @@
----
-title: Support Vector Machines
----
