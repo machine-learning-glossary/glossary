@@ -1,21 +1,15 @@
 {% assign page_filename = page.path | split: "/" | last | split: "." | first %}
-{% assign all_terms = site.pages | where_exp:"item","item.url contains 'terms/'" %}
-{% assign display_related_terms = false %}
-{% capture related_terms_html %}
-<h2>Related Terms</h2>
+{% capture outbound_link_term_urls_str %}{% for term in page.related_terms %}/terms/{{term}}/<br>{% endfor %}
+{% endcapture %}
+{% assign outbound_link_term_urls = outbound_link_term_urls_str | split: "<br>" %}
+{% assign outbound_links = site.pages | where_exp:"item","outbound_link_term_urls contains item.url" %}
+{% assign inbound_links = site.pages | where_exp:"item","item.related_terms contains page_filename" %}
+<h2>Super Related Terms</h2>
 <ul>
-{% for term in all_terms %}
-    {% assign term_filename = term.path | split: "/" | last | split: "." | first %}
-    {% if page.related_terms contains term_filename and term.url and term.title %}
-        {% assign display_related_terms = true %}
-        <li><a href="{{ term.url }}">{{ term.title }}</a></li>
-    {% elsif term.related_terms and term.related_terms contains page_filename and term.url and term.title %}
-        {% assign display_related_terms = true %}
-        <li><a href="{{ term.url }}">{{ term.title }}</a></li>
-    {% endif %}
+{% for term in inbound_links %}
+    <li><a class="link" href="{{ term.url }}">{{ term.title }}</a></li>
+{% endfor %}
+{% for term in outbound_links %}
+    <li><a class="link" href="{{ term.url }}">{{ term.title }}</a></li>
 {% endfor %}
 </ul>
-{% endcapture %}
-{% if display_related_terms %}
-{{ related_terms_html }}
-{% endif %}
