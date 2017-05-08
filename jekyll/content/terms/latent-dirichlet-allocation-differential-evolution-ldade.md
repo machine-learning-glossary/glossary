@@ -4,6 +4,7 @@ related_terms:
  - latent-dirichlet-allocation-lda
  - differential-evolution
  - clustering-stability
+ - search-based-software-engineering-sbse
 references:
  - "[What is Wrong with Topic Modeling? (and How to Fix it Using Search-based Software Engineering)](https://arxiv.org/abs/1608.08176)"
 ---
