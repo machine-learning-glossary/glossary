@@ -2,6 +2,8 @@
 title: Softmax
 related_terms:
  - hierarchical-softmax
+references:
+ - "[Softmax function - Wikipedia](https://en.wikipedia.org/wiki/Softmax_function)"
 ---
 The softmax turns $n$ numbers
 in $\mathbb R^N$ into a probability distribution proportional
@@ -14,4 +16,3 @@ $$
 \frac{\exp{(v_i)}}
 {\sum_{j=1}^{n} \exp{(v_i)}}
 $$
-
