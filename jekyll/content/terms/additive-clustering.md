@@ -1,5 +1,5 @@
 ---
-title: Additive Clustering
+title: Additive clustering
 related_terms:
  - clustering
 ---
