@@ -5,7 +5,7 @@ related_terms:
 references:
  - "[Globally Coherent Text Generation with Neural Checklist Models](https://homes.cs.washington.edu/~yejin/Papers/emnlp16_neuralchecklist.pdf)"
 ---
-Neural checklist models were introduced in the paper "[Globally Coherent Text Generation with Neural Checklist Models](https://homes.cs.washington.edu/~yejin/Papers/emnlp16_neuralchecklist.pdf)" by Kiddon et al.
+Neural checklist models were introduced in the paper [Globally Coherent Text Generation with Neural Checklist Models](https://homes.cs.washington.edu/~yejin/Papers/emnlp16_neuralchecklist.pdf) by Kiddon et al.
 
 A neural checklist model is a recurrent neural network that tracks an agenda of text strings that should be mentioned in the output.
 
