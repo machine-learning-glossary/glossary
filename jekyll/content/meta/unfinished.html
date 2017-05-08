@@ -19,7 +19,7 @@ should be expanded and turned into full-fledged glossary entries.
     {% assign page_size = page.content | size %}
     {% if page_size < site.small_page_size %}
 <tr class="stripe-dark">
-    <td class="fw6 tl pa3 bg-white"><a href="{{ page.url }}">{{ page.title }}</a></td>
+    <td class="fw6 tl pa3 bg-white"><a class="link" href="{{ page.url }}">{{ page.title }}</a></td>
 {% assign references = 0 %}
 {% if page.references %}
     {% assign references = page.references.size %}

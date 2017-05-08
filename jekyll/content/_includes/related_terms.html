@@ -4,12 +4,20 @@
 {% assign outbound_link_term_urls = outbound_link_term_urls_str | split: "<br>" %}
 {% assign outbound_links = site.pages | where_exp:"item","outbound_link_term_urls contains item.url" %}
 {% assign inbound_links = site.pages | where_exp:"item","item.related_terms contains page_filename" %}
-<h2>Super Related Terms</h2>
-<ul>
+{% assign display_the_terms = false %}
+{% capture term_list %}
 {% for term in inbound_links %}
+    {% assign display_the_terms = true %}
     <li><a class="link" href="{{ term.url }}">{{ term.title }}</a></li>
 {% endfor %}
 {% for term in outbound_links %}
+    {% assign display_the_terms = true %}
     <li><a class="link" href="{{ term.url }}">{{ term.title }}</a></li>
 {% endfor %}
+{% endcapture %}
+{% if display_the_terms %}
+<h2>Related Terms</h2>
+<ul>
+    {{ term_list }}
 </ul>
+{% endif %}
