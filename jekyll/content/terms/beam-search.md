@@ -10,5 +10,5 @@ references:
 Beam search is memory-restricted version of breadth-first search.
 
 Beam search commonly appears in machine translation or other literature where
-[sequence-to-sequence](/terms/sequence-to-sequence-learning-seq2seq/) is common.
+[sequence-to-sequence](/terms/sequence-to-sequence-learning-seq2seq/) learning is common.
 In this domain, beam search is used to increase the quality of the output sequence.
