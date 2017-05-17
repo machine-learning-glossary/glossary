@@ -1,6 +1,7 @@
 ---
 title: Continuous-Bag-of-Words (CBOW)
 related_terms:
+ - word-embedding
  - bag-of-words
  - word2vec
 ---

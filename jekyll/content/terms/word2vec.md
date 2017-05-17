@@ -1,6 +1,7 @@
 ---
 title: word2vec
 related_terms:
+ - word-embedding
  - skip-gram
  - continuous-bag-of-words-cbow
  - doc2vec
