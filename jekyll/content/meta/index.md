@@ -8,3 +8,4 @@ and understand this website.
 
  - [Unfinished Terms](/meta/unfinished/): This page lists terms that currently
  have incomplete definitions.
+ - [Needs Review](/meta/needs-review/): This page lists terms that have definitions, but they have been marked for review.

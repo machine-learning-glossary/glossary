@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Meta: Terms Needing Review"
+---
+<p>
+This page links to terms that have "complete" definitions,
+but are in need of review or further editing.
+</p>
+<ul>
+{% assign needs_review = site.pages | where_exp: "item", "item.needs_review" %}
+{% for page in needs_review %}
+    <li><a class="link" href="{{ page.url }}">{{ page.title }}</a></li>
+{% endfor %}
+</ul>
