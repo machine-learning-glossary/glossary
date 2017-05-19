@@ -1,0 +1,16 @@
+---
+layout: page
+title: "Meta: Terms Without References"
+---
+<p>
+This page links to all terms that do not have listed external
+references.
+</p>
+{% assign no_references = site.pages | where_exp: "item", "item.references == nil" %}
+<ul>
+{% for page in no_references %}
+  {% if page.url contains 'terms/' and page.title %}
+<li><a class="link" href="{{ page.url }}">{{ page.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>

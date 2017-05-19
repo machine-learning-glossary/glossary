@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Meta: Terms Without Related Terms"
+---
+<p>
+This is a list of terms that have an empty list of outbound
+related terms, and also is not referenced by any other term as a 
+related term.
+</p>
+<ul>
+{% capture all_related_terms_str %}{% for page in site.pages %}{% for term in page.related_terms %}/terms/{{ term }}/<br>{% endfor %}{% endfor %}{% endcapture %}
+{% assign all_related_terms = all_related_terms_str| split: "<br>" %}
+{% for page in site.pages %}
+    {% if page.url contains 'terms/' and page.related_terms == nil %}
+        {% unless all_related_terms contains page.url %}
+<li><a class="link" href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+</ul>
