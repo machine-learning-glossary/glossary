@@ -13,7 +13,7 @@ related term.
 {% for page in site.pages %}
     {% if page.url contains 'terms/' and page.related_terms == nil %}
         {% unless all_related_terms contains page.url %}
-<li><a class="link" href="{{ page.url }}">{{ page.title }}</a></li>
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endunless %}
     {% endif %}
 {% endfor %}

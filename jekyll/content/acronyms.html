@@ -21,6 +21,6 @@ This page contains alphabetically-sorted links to all terms with well-known acro
 {% assign acronym_list = acronym_list_str | strip_newlines | remove: " " | split: "(((" %}
 {% assign sorted_acronym_list = acronym_list | sort %}
 {% for listed_acronym in sorted_acronym_list %}
-<li>{{ listed_acronym | replace: "###", " " | markdownify | replace: '<a href', '<a class="link" href' }}</li>
+<li>{{ listed_acronym | replace: "###", " " | markdownify }}</li>
 {% endfor %}
 </ul>
