@@ -34,6 +34,7 @@ references:
 The `title` refers to the title of the term.
 
 Terns with acronyms should have the acronym following the term:
+
 ```
 Generative Adversarial Network (GAN)
 Harmonic Precision-Recall Mean (F1 Score)
@@ -41,6 +42,19 @@ Kullback-Leibler (KL) Divergence
 ```
 
 Acronyms are then found and collected at `/meta/acronyms`.
+
+The filenames always include the acronym at the same place as the title:
+
+```
+generative-adversarial-network.md
+harmonic-precision-recall-mean-f1-score.md
+kullback-leibler-kl-divergence.md
+```
+
+ - Filenames are always lowercase.
+ - Words are separated by the dash (`-`) symbol.
+ - Files are always written in Markdown with the `.md` extension.
+
 
 ### Metadata
 
@@ -51,3 +65,6 @@ terms in its Markdown file *and all references to the term from other terms'
 
 Links external to the glossary can be placed in the `references` list as
 quoted, markdown-formatted URLs.
+
+For terms that have been filled out, but need further review for accuracy
+and cleanup, please add `needs_review: true` to the YAML front-matter.
