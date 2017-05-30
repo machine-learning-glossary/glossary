@@ -4,8 +4,10 @@ references:
  - "[Provenance tracking - Best practices for data management in neurophysiology](http://rrcns.readthedocs.io/en/latest/provenance_tracking.html)"
  - "[Data Science Workflow: Overview and Challenges - Communications of the ACM](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)"
 ---
-
-In an [article for the ACM][1], Philip Guo writes:
+In data acquisition, provenance tracking is keeping track of
+"where each piece of data comes from and whether it is still up-to-date".
+This quoted definition comes from Philip Guo [in an article for the ACM][1]
+where he elaborates:
 
 > The main problem that programmers face in data acquisition is keeping track of provenance, i.e., where each piece of data comes from and whether it is still up-to-date.  It is important to accurately track provenance, since data often needs to be re-acquired in the future to run updated experiments.  Re-acquisition can occur either when the original data sources get updated or when researchers want to test alternate hypotheses.  Also, provenance can enable downstream analysis errors to be traced back to the original data sources.
 
