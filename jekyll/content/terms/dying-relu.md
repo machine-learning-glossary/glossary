@@ -18,3 +18,4 @@ longer be useful during training.
 by returning a small value when the input $x$ is less than 0.
 
 [1]: /terms/rectified-linear-unit-relu/
+[2]: /terms/leaky-relu/
