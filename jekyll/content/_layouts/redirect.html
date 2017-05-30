@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+{% assign destination = "/terms/" | append: page.destination | append: "/" %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="refresh" content="0;URL='{{ destination }}'" />  
+        <title>{{ page.title }} - {{ site.title }}</title>
+    </head>
+    <body>
+        <p>{{ page.title }} is a synonym for another term.</p>
+        <p><a href="{{ destination }}">Click here</a> if your browser does not automatically redirect.</p>
+    </body>
+</html>

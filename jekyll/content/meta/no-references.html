@@ -9,7 +9,7 @@ references.
 {% assign no_references = site.pages | where_exp: "item", "item.references == nil" %}
 <ul>
 {% for page in no_references %}
-  {% if page.url contains 'terms/' and page.title %}
+  {% if page.url contains 'terms/' and page.title and page.layout != 'redirect' %}
 <li><a href="{{ page.url }}">{{ page.title }}</a></li>
   {% endif %}
 {% endfor %}

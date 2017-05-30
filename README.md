@@ -68,3 +68,18 @@ quoted, markdown-formatted URLs.
 
 For terms that have been filled out, but need further review for accuracy
 and cleanup, please add `needs_review: true` to the YAML front-matter.
+
+### Redirects
+For when two terms are synonyms, both terms should be added, but one
+of them as a redirect to another. The entire content of the Redirect
+term should have a `title` with the term title, `layout: redirect`
+to use the redirect template, and `destination` to mark the filename
+of the term (without extension) to redirect to. An example is below:
+
+```
+---
+title: Latent semantic analysis (LSA)
+layout: redirect
+destination: latent-semantic-indexing-lsi
+---
+```

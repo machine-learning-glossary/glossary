@@ -11,7 +11,7 @@ related term.
 {% capture all_related_terms_str %}{% for page in site.pages %}{% for term in page.related_terms %}/terms/{{ term }}/<br>{% endfor %}{% endfor %}{% endcapture %}
 {% assign all_related_terms = all_related_terms_str| split: "<br>" %}
 {% for page in site.pages %}
-    {% if page.url contains 'terms/' and page.related_terms == nil %}
+    {% if page.url contains 'terms/' and page.related_terms == nil and page.layout != 'redirect' %}
         {% unless all_related_terms contains page.url %}
 <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endunless %}

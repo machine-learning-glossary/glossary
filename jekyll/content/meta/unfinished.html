@@ -17,7 +17,7 @@ should be expanded and turned into full-fledged glossary entries.
 {% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
 {% for page in pages %}
     {% assign page_size = page.content | size %}
-    {% if page_size < site.small_page_size %}
+    {% if page_size < site.small_page_size and page.layout != redirect %}
 <tr class="stripe-dark">
     <td class="fw6 tl pa3 bg-white"><a href="{{ page.url }}">{{ page.title }}</a></td>
 {% assign references = 0 %}
