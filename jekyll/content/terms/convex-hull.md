@@ -4,4 +4,17 @@ related_terms:
  - convex-combination
 references:
  - "[Convex hull - Wikipedia](https://en.wikipedia.org/wiki/Convex_hull)"
+ - "[Convex set - Wikipedia](https://en.wikipedia.org/wiki/Convex_set)"
+ - "[Convex combination - Wikipedia](https://en.wikipedia.org/wiki/Convex_combination)"
 ---
+A convex hull for a set of points is the smallest
+convex set that contains the set.
+
+As per Wikipedia, a [convex set][1] is the smallest affine space
+closed under convex combination.
+
+A [convex combination][2] is a linear combination where
+all the coefficients are greater than 0 and all sum to 1.
+
+[1]: https://en.wikipedia.org/wiki/Convex_set
+[2]: /terms/convex-combination/
