@@ -5,6 +5,7 @@ related_terms:
  - recurrent-neural-network
 references:
  - "[Sequence-to-Sequence Models - TensorFlow Tutorials](https://www.tensorflow.org/tutorials/seq2seq)"
+ - "[Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)"
 ---
 This typically refers to the method originally described by Sutskever et al. in the paper
 [Sequence to Sequence Learning with Neural Networks][1].
