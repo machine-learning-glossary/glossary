@@ -25,6 +25,7 @@ This example comes from the [project page][1] for
 [word2vec](/terms/word2vec/).
 
 Common implementations of word embeddings include:
+
  - [word2vec](/terms/word2vec/)
  - [GloVe](/terms/glove-word-embeddings/)
  - [fastText](/terms/fasttext/)
