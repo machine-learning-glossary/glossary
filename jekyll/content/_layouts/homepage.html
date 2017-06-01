@@ -2,7 +2,7 @@
 layout: compress
 ---
 {% include header.html %}
-{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
+{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort_natural: 'title' %}
 {% capture term_list %}
 {% for page in pages %}
     {% assign page_size = page.content | size %}
