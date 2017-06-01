@@ -4,4 +4,5 @@ related_terms:
  - narrow-convolution
  - convolution
  - convolutional-neural-network-cnn
+ - zero-padding
 ---
