@@ -5,6 +5,7 @@ layout: compress
 <article class="pa3 pa5-ns center mw9 mw9-ns">
   <h1 class="f3 f1-m f-headline-l">{{ page.title }}</h1>
   {{ content }}
+  {% include synonyms.html %}
   {% include related_terms.html %}
   {% include references.html %}
 </article>

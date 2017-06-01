@@ -1,0 +1,10 @@
+  {% assign slug = page.url | split: "/" | last %}
+  {% assign synonyms = site.pages | where_exp: "item": "item.destination == slug" %}
+  {% if synonyms.size > 0 %}
+  <h2>Synonyms</h2>
+  <ul>
+  {% for synonym in synonyms %}
+    <li>{{ synonym.title }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
