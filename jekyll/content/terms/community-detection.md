@@ -2,7 +2,7 @@
 title: Community detection
 related_terms:
  - community-structure
- - stochastic-block-model
+ - stochastic-block-model-sbm
 ---
 Community detection refers to the problem of detecting whether
 a graph has [community structure][1].

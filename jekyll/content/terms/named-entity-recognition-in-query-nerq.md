@@ -1,7 +1,7 @@
 ---
 title: Named Entity Recognition in Query (NERQ)
 related_terms:
- - named-entity-Recognition-ner
+ - named-entity-recognition-ner
 references:
  - "[Named Entity Recognition in Query](https://soumen.cse.iitb.ac.in/~soumen/doc/www2013/QirWoo/GuoXCL2009nerq.pdf)"
  - "[Named entity recognition in query - Google Patents](https://www.google.com/patents/US9009134)"

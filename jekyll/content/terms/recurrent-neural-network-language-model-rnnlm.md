@@ -1,7 +1,7 @@
 ---
 title: Recurrent Neural Network Language Model (RNNLM)
 related_terms:
- - natural-language-processing-nlp
+ - natural-language-processing
  - recurrent-neural-network
  - neural-network
 references:

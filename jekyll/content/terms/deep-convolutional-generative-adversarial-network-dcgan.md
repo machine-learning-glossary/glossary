@@ -1,8 +1,8 @@
 ---
 title: Deep Convolutional Generative Adversarial Network (DCGAN)
 related_terms:
- - generative-adversarial-network
- - convolutional-neural-network
+ - generative-adversarial-network-gan
+ - convolutional-neural-network-cnn
 references:
  - "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)"
 ---

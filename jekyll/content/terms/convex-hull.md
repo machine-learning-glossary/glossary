@@ -2,7 +2,6 @@
 title: Convex hull
 related_terms:
  - convex-combination
- - convex-set
  - affine-space
 references:
  - "[Convex hull - Wikipedia](https://en.wikipedia.org/wiki/Convex_hull)"
