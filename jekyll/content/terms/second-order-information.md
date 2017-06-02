@@ -1,5 +1,6 @@
 ---
 title: Second-order information
+needs_review: true
 related_terms:
  - first-order-information
  - hessian-matrix
