@@ -13,6 +13,9 @@ title: All Words
       See <a href="#{{ term.destination }}">{{ destination.title }}</a>.
     {% else %}
       {{ term.content | markdownify }}
+      {% include synonyms.html page=term %}
+      {% include related_terms.html page=term local=true %}
+      {% include references.html page=term %}
     {% endif %}
     <hr />
   {% endif %}
