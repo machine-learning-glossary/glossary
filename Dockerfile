@@ -14,4 +14,5 @@ RUN echo https://conoria.gitlab.io/alpine-pandoc/ >> /etc/apk/repositories &&\
 COPY jekyll/content/Gemfile /jekyll/content/
 WORKDIR /jekyll/content
 RUN bundle install
-ENTRYPOINT ["jekyll"]
+COPY build/entrypoint.sh /bin
+ENTRYPOINT ["entrypoint.sh"]
