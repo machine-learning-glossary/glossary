@@ -20,7 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
  machine learning, computer vision, natural language processing,
  and statistics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://machinelearning.wtf" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://machinelearning.wtf" # the base hostname & protocol for your site, e.g. http://example.com
 github_baseurl: "https://github.com/machine-learning-glossary/glossary/edit/master/jekyll/content/"
 small_page_size: 200 # Minimum amount of characters a completed page should have.
 defaults:
