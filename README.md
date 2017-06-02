@@ -1,4 +1,4 @@
-# Machine Learning Glossary
+# [Machine Learning Glossary - https://machinelearning.wtf/](https://machinelearning.wtf/)
 [![Build Status](https://travis-ci.org/machine-learning-glossary/glossary.svg?branch=master)](https://travis-ci.org/machine-learning-glossary/glossary)
 ## About
 This is a website to build an online glossary for machine learning
@@ -87,6 +87,15 @@ layout: redirect
 destination: latent-semantic-indexing-lsi
 ---
 ```
+
+## Philosophy
+
+1. Write about terminology, not people.
+2. Keep it simple and short. Link elsewhere for the most advanced material,
+and avoid excessive expository writing.
+3. Cover common terms, but focus on obscure terms that appear in a handful
+of papers, but won't make into Wikipedia.
+4. MLG should be easy to read, and easy to write.
 
 ## Todo
 
