@@ -21,7 +21,7 @@ Typically in machine learning literature, it refers to the Hadamard product
 (component-wise multiplication for matrices).
 
 # $\sigma$ Sigma
-The $\sigma$ symbol is often used to represent the standard deviation
+The $\sigma$ symbol is often used to represent the [standard deviation][7]
 of a probability distribution.
 
 When used as a function that takes in a value, e.g. $\sigma(x)$,
@@ -46,3 +46,4 @@ information.
 [4]: https://en.wikipedia.org/wiki/Interpunct "Interpunct - Wikipedia"
 [5]: https://math.stackexchange.com/questions/1795287/what-does-the-middle-dot-in-parentheses-mean "What does the middle dot in parentheses mean? - Mathematics StackExchange"
 [6]: https://en.wikipedia.org/wiki/Exclusive_or "Exclusive or - Wikipedia"
+[7]: /terms/standard-deviation/
