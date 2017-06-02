@@ -1,7 +1,7 @@
-{% if page.references %}
+{% if include.page.references %}
   <h2>References</h2>
   <ul>
-  {% for ref in page.references %}
+  {% for ref in include.page.references %}
     <li>{{ ref | markdownify | remove: "<p>" | remove: "</p>" }}</li>
   {% endfor %}
   </ul>

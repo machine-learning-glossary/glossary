@@ -1,4 +1,4 @@
-  {% assign slug = page.url | split: "/" | last %}
+  {% assign slug = include.page.url | split: "/" | last %}
   {% assign synonyms = site.pages | where_exp: "item": "item.destination == slug" %}
   {% if synonyms.size > 0 %}
   <h2>Synonyms</h2>
