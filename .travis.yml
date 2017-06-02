@@ -1,0 +1,9 @@
+sudo: required
+
+services:
+ - docker
+
+language: ruby
+
+before_install:
+ - docker run -v $PWD/jekyll:/jekyll --rm -e AWS_S3_ID -e AWS_S3_SECRET -e AWS_S3_URL jekyll deploy
