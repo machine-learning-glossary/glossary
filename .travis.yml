@@ -5,5 +5,10 @@ services:
 
 language: ruby
 
+branches:
+  only:
+    - master
+
 before_install:
+ - docker build -t jekyll .
  - docker run -v $PWD/jekyll:/jekyll --rm -e AWS_S3_ID -e AWS_S3_SECRET -e AWS_S3_URL jekyll deploy
