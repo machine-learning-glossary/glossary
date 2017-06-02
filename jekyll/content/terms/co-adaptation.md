@@ -2,6 +2,7 @@
 title: Co-adaptation
 related_terms:
  - dropout
+ - regularization
 references:
  - '[What does "co-adaptation of neurons" in a Neural network mean? - Quora](https://www.quora.com/What-does-co-adaptation-of-neurons-in-a-Neural-network-mean)'
 ---
@@ -11,3 +12,8 @@ units in a neural networks have highly correlated behavior.
 It is better for computational efficiency and the the model's ability
 to learn a general representation if hidden units can detect
 features independently of each other.
+
+A few different regularization techniques aim at reducing
+co-adapatation--[dropout][1] being a notable one.
+
+[1]: /terms/dropout/
