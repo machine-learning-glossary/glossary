@@ -11,9 +11,10 @@ A Rectified Linear Unit is a common name for a neuron (the "unit")
 with an activation function of $f(x) = \max(0,x)$.
 
 Neural networks built with ReLU have the following advantages:
+
  - [gradient][1] computation is simpler because the activation
  function is computationally similar than comparable activation
- functions like `tanh(x)`.
+ functions like $\tanh(x)$.
  - Neural networks with ReLU are less susceptible to
  the [vanishing gradient problem][2] but may suffer from
  the [dying ReLU problem][3].
