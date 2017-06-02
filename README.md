@@ -1,4 +1,5 @@
 # Machine Learning Glossary
+[![Build Status](https://travis-ci.org/machine-learning-glossary/glossary.svg?branch=master)](https://travis-ci.org/machine-learning-glossary/glossary)
 ## About
 This is a website to build an online glossary for machine learning
 terms--with an emphasis on brief, concise descriptions.
@@ -11,6 +12,9 @@ LaTeX mathematics is rendered with MathJax.
 To build the Docker container, run `./build.sh`.
 
 To build the Jekyll website and serve locally, run `./serve.sh`.
+
+Deployment is done with `./deploy.sh`, but that is automated using
+[our build on Travis CI](https://travis-ci.org/machine-learning-glossary/glossary).
 
 ## Writing
 Terms should be written in Markdown, as that is what the templates are
@@ -83,3 +87,18 @@ layout: redirect
 destination: latent-semantic-indexing-lsi
 ---
 ```
+
+## Todo
+
+1. Build a linter that checks for:
+
+ - broken internal links
+ - broken external links
+ - trailing spaces before newlines
+ - forgetting to put a newline before bullets or other Markdown syntax
+ - common misspellings
+ - uncompilable LaTeX code
+
+2. Build a better user interface.
+
+3. Integrate Algolia search.
