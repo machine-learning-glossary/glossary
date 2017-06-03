@@ -44,8 +44,20 @@ gems:
   - jekyll-sitemap
   - jekyll-pandoc
   - jekyll-s3
+  - algoliasearch-jekyll
 exclude:
   - Gemfile
   - Gemfile.lock
-deploy:
-  - sh
+  - vendor
+algolia:
+  record_css_selector: "p,ul,ol,li,blockquote"
+  excluded_files:
+    - index.md
+    - all.html
+    - about.md
+    - acronyms.html
+    - meta/index.md
+    - meta/needs_review.html
+    - meta/no_references.html
+    - meta/no_related_terms.html
+    - meta/unfinished.html
