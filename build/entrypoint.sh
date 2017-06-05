@@ -4,7 +4,7 @@ set -e
 if [ "$1" == "serve" ]
 then
 	echo "Serving..."
-	exec jekyll serve --source /jekyll/content --host 0.0.0.0
+	exec jekyll serve --source /jekyll/content --host 0.0.0.0 "$@"
 elif [ "$1" == "deploy" ]
 then
 	echo "Starting build..."
@@ -14,5 +14,5 @@ then
 	echo "Completed algolia push, starting deploy..."
 	exec jekyll-s3 --headless
 else
-	exec jekyll $@
+	exec jekyll "$@"
 fi
