@@ -73,6 +73,16 @@ a:focus   {
   transition: color .15s ease-in;
   outline: 1px dotted currentColor;
 }
+
+/* Style for Algolia highlighted search results. */
+.algolia__result-highlight {
+    background-color: yellow;
+}
+
+.ais-search-box--powered-by {
+  color: white;
+};
+
         </style>
         <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -83,9 +93,11 @@ a:focus   {
   <nav class="f6 fw6 ttu tracked no-print">
     <a class="link dim white dib mr3" href="/" title="Home">Home</a>
     <a class="link dim white dib mr3" href="/about/" title="About">About</a>
-    <a class="link dim white dib mr3" href="/meta/" title="Store">Meta</a>
+    <a class="link dim white dib mr3" href="/meta/" title="Meta">Meta</a>
+    <a class="link dim white dib mr3" href="/all/" title="All Terms">All</a>
     <a class="link dim white dib" href="https://github.com/machine-learning-glossary/glossary" title="Github">Github</a>
   </nav>
+<div id="searchcontainer"> </div>
 </header>
   {% if page.content.size < site.small_page_size and page.url contains 'terms/' %}
     {% include banners/incomplete_term.html %}
