@@ -104,6 +104,7 @@ DEPENDENCIES
   jekyll-s3
   jekyll-sitemap
   jekyll-toc
+  mini_portile2 (= 2.1.0)
   sass (= 3.4.23)
   tzinfo-data
 
