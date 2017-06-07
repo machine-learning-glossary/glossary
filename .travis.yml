@@ -10,5 +10,7 @@ branches:
     - master
 
 before_install:
+ - source ./build/install-git-lfs.sh
+ - git lfs pull
  - ./build.sh
  - ./deploy.sh
