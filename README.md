@@ -37,7 +37,7 @@ references:
 ### Titles
 The `title` refers to the title of the term.
 
-Terns with acronyms should have the acronym following the term:
+Terms with acronyms should have the acronym following the term:
 
 ```
 Generative Adversarial Network (GAN)
