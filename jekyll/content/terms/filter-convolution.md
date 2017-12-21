@@ -12,4 +12,4 @@ to modify images or extract features.
 The dimensions of a convolution filter are typically small,
 odd, and square. For example, convolution filters are typically
 $3 \times 3$ or $5 \times 5$ matrices. Odd dimensions are
-preferred to even dimensions
+preferred to even dimensions.

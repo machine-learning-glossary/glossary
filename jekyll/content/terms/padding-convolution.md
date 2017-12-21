@@ -7,7 +7,8 @@ related_terms:
 ---
 Padding is a preprocessing step before a convolution operation.
 
-When we convolve a $n \times n$ image with an $f \times f$ filter,
+When we [convolve][1] a $n \times n$ image with an $f \times f$ filter
+and a stride length of $1$,
 the output is a matrix of dimension $n - f \times n - f$.
 
 For deep convolutional neural networks that may do many convolutions,
@@ -17,6 +18,12 @@ too small.
 Additionally, values in the middle of the input matrix have a greater
 influence on the output than values on the edges.
 
-To solve these problems, it is common to [zero-pad](/terms/zero-pad/)
-the input matrix to preserve information at the edges of the input
-and to avoid the output from shrinking too much.
+There are several different methods for choosing what values to pad an input
+matrix with:
+
+ - [Zero-padding][2] -- padding with zeroes
+ - Repeating the nearest border values as values for padding
+ - Using values from the opposite side of the matrix as padding values
+
+[1]: /terms/convolution/
+[2]: /terms/zero-pad/
