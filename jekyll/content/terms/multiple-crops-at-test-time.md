@@ -17,4 +17,9 @@ Broadly, the technique involves:
  - averaging the results of the model's many predictions
 
 Multi-crop at test time is a technique that some machine learning researchers
-use to improve accuracy at test time.
+use to improve accuracy at test time. The technique
+found popularity among some competitors in the
+ImageNet Large Scale Visual Recognition Competition
+after the famous AlexNet paper, titled
+[ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), used
+the technique.

@@ -1,5 +1,7 @@
 ---
 title: Top-1 error rate
+references:
+ - "[ImageNet: what is top-1 and top-5 error rate?](https://stats.stackexchange.com/questions/156471/imagenet-what-is-top-1-and-top-5-error-rate)"
 ---
 The term *top-1 error rate* refers method of benchmarking
 machine learning models in the ImageNet
