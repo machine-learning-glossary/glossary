@@ -14,16 +14,11 @@ collections:
         name: title
         widget: string
         required: true
-      - label: Related Term
+      - label: Related Terms
         name: related_terms
         widget: list
-        field:
-          - widget: relation
-            collection: terms
-            searchFields: [title, slug]
-            valueField: slug
       - label: Reference
-        name: new_references
+        name: references
         widget: list
         fields:
           - label: Link Title
