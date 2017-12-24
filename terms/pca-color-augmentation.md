@@ -1,13 +1,15 @@
 ---
-title: PCA Color Augmentation
-related_terms:
- - principal-component-analysis-pca
- - data-augmentation
 references:
- - "[ImageNet Classification with Deep Convolutional
-Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)"
- - "[Fancy PCA (Data Augmentation) with Scikit-Image](https://deshanadesai.github.io/notes/Fancy-PCA-with-Scikit-Image)"
- - "[Data Augmentation - Convolutional Neural Networks - deeplearning.ai](https://www.coursera.org/learn/convolutional-neural-networks/lecture/AYzbX/data-augmentation)"
+- link_title: ImageNet Classification with Deep Convolutional Neural Networks
+  link_url: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+- link_title: Fancy PCA (Data Augmentation) with Scikit-Image
+  link_url: https://deshanadesai.github.io/notes/Fancy-PCA-with-Scikit-Image
+- link_title: Data Augmentation - Convolutional Neural Networks - deeplearning.ai
+  link_url: https://www.coursera.org/learn/convolutional-neural-networks/lecture/AYzbX/data-augmentation
+related_terms:
+- principal-component-analysis-pca
+- data-augmentation
+title: PCA Color Augmentation
 ---
 The term *PCA Color Augmentation* refers to a type of
 [data augmentation][1] technique

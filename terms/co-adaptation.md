@@ -1,10 +1,11 @@
 ---
-title: Co-adaptation
-related_terms:
- - dropout
- - regularization
 references:
- - '[What does "co-adaptation of neurons" in a Neural network mean? - Quora](https://www.quora.com/What-does-co-adaptation-of-neurons-in-a-Neural-network-mean)'
+- link_title: What does "co-adaptation of neurons" in a Neural network mean? - Quora
+  link_url: https://www.quora.com/What-does-co-adaptation-of-neurons-in-a-Neural-network-mean
+related_terms:
+- dropout
+- regularization
+title: Co-adaptation
 ---
 In neural networks, co-adaptation refers to when different hidden
 units in a neural networks have highly correlated behavior.

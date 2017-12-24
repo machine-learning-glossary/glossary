@@ -1,11 +1,12 @@
 ---
-title: Inverted dropout
-related_terms:
- - regularization
- - model-averaging
- - dropout
 references:
- - "[Analysis of Dropout](https://pgaleone.eu/deep-learning/regularization/2017/01/10/anaysis-of-dropout/)"
+- link_title: Analysis of Dropout
+  link_url: https://pgaleone.eu/deep-learning/regularization/2017/01/10/anaysis-of-dropout/
+related_terms:
+- regularization
+- model-averaging
+- dropout
+title: Inverted dropout
 ---
 Inverted dropout is a variant of the original [dropout](/terms/dropout)
 technique developed by Hinton et al.

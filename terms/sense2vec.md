@@ -1,12 +1,15 @@
 ---
-title: sense2vec
-related_terms:
- - word2vec
- - word-embedding
- - glove-word-embeddings
 references:
- - "[sense2vec - A Fast and Accurate Method for Word Sense Disambiguation In Neural Word Embeddings](https://arxiv.org/abs/1511.06388)"
- - "[Sense2vec with spaCy and Gensim - Explosion AI](https://explosion.ai/blog/sense2vec-with-spacy)"
+- link_title: sense2vec - A Fast and Accurate Method for Word Sense Disambiguation
+    In Neural Word Embeddings
+  link_url: https://arxiv.org/abs/1511.06388
+- link_title: Sense2vec with spaCy and Gensim - Explosion AI
+  link_url: https://explosion.ai/blog/sense2vec-with-spacy
+related_terms:
+- word2vec
+- word-embedding
+- glove-word-embeddings
+title: sense2vec
 ---
 sense2vec refers to a system in a paper titled
 [sense2vec - A Fast and Accurate Method for Word Sense Disambiguation In Neural Word Embeddings](https://arxiv.org/abs/1511.06388).

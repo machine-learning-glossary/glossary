@@ -1,7 +1,8 @@
 ---
-title: Computer vision
 references:
- - "[Computer vision - Wikipedia](https://en.wikipedia.org/wiki/Computer_vision)"
+- link_title: Computer vision - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Computer_vision
+title: Computer vision
 ---
 Computer vision is the field of teaching computers to perceive sensor
 data--such as from cameras, RADAR, and LIDAR sensors--to achieve

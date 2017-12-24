@@ -1,10 +1,13 @@
 ---
-title: Random initialization
-related_terms:
- - symmetry-breaking
 references:
- - "[Why doesn't backpropagation work when you initialize the weights the same value? -- Cross Validated](https://stats.stackexchange.com/questions/45087/why-doesnt-backpropagation-work-when-you-initialize-the-weights-the-same-value)"
- - "[Random Initialization - Coursera Machine Learning](https://www.coursera.org/learn/machine-learning/lecture/ND5G5/random-initialization)"
+- link_title: Why doesn't backpropagation work when you initialize the weights the
+    same value? -- Cross Validated
+  link_url: https://stats.stackexchange.com/questions/45087/why-doesnt-backpropagation-work-when-you-initialize-the-weights-the-same-value
+- link_title: Random Initialization - Coursera Machine Learning
+  link_url: https://www.coursera.org/learn/machine-learning/lecture/ND5G5/random-initialization
+related_terms:
+- symmetry-breaking
+title: Random initialization
 ---
 Random initialization refers to the practice of using random numbers
 to initialize the weights of a machine learning model.

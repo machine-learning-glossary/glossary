@@ -1,11 +1,15 @@
 ---
-title: Data augmentation
-related_terms:
- - overfitting
 references:
- - "[Data Augmentation - Convolutional Neural Networks - deeplearning.ai](https://www.coursera.org/learn/convolutional-neural-networks/lecture/AYzbX/data-augmentation)"
- - "[Understanding data augmentation for classification: when to warp?](https://arxiv.org/abs/1609.08764)"
- - "[What you need to know about data augmentation for machine learning - Cartesian Faith](https://cartesianfaith.com/2016/10/06/what-you-need-to-know-about-data-augmentation-for-machine-learning/)"
+- link_title: Data Augmentation - Convolutional Neural Networks - deeplearning.ai
+  link_url: https://www.coursera.org/learn/convolutional-neural-networks/lecture/AYzbX/data-augmentation
+- link_title: 'Understanding data augmentation for classification: when to warp?'
+  link_url: https://arxiv.org/abs/1609.08764
+- link_title: What you need to know about data augmentation for machine learning -
+    Cartesian Faith
+  link_url: https://cartesianfaith.com/2016/10/06/what-you-need-to-know-about-data-augmentation-for-machine-learning/
+related_terms:
+- overfitting
+title: Data augmentation
 ---
 *Data augmentation* is the process of using computer algorthms
 or other synthetic means to increase the size of a collected dataset.

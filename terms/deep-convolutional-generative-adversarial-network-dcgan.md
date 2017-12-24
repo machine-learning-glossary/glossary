@@ -1,10 +1,12 @@
 ---
-title: Deep Convolutional Generative Adversarial Network (DCGAN)
-related_terms:
- - generative-adversarial-network-gan
- - convolutional-neural-network-cnn
 references:
- - "[Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434)"
+- link_title: Unsupervised Representation Learning with Deep Convolutional Generative
+    Adversarial Networks
+  link_url: https://arxiv.org/abs/1511.06434
+related_terms:
+- generative-adversarial-network-gan
+- convolutional-neural-network-cnn
+title: Deep Convolutional Generative Adversarial Network (DCGAN)
 ---
 DCGAN refers to a model described by [Radford, Metz, and Chintala][1]
 that uses deep convolutional neural networks in a generative adversarial network model.

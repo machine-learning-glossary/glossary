@@ -1,9 +1,10 @@
 ---
-title: AlexNet
-related_terms:
- - convolutional-neural-network-cnn
 references:
- - "[ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)"
+- link_title: ImageNet Classification with Deep Convolutional Neural Networks
+  link_url: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+related_terms:
+- convolutional-neural-network-cnn
+title: AlexNet
 ---
 AlexNet is a convolutional neural network architecture proposed by
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton in 2012.

@@ -1,11 +1,11 @@
 ---
-title: Extractive sentence summarization
-related_terms:
- - abstractive-sentence-summarization
- - textrank
 references:
- - "[Extractive Summarization Using Supervised and Semi-supervised
-Learning](http://anthology.aclweb.org/C/C08/C08-1124.pdf)"
+- link_title: Extractive Summarization Using Supervised and Semi-supervised Learning
+  link_url: http://anthology.aclweb.org/C/C08/C08-1124.pdf
+related_terms:
+- abstractive-sentence-summarization
+- textrank
+title: Extractive sentence summarization
 ---
 Extractive sentence summarization refers to programmatically
 creating a shorter version of a document by extracting

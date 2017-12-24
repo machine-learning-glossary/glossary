@@ -1,5 +1,6 @@
 ---
-title: Affinity analysis
 references:
- - "[Affinity analysis - Wikipedia](https://en.wikipedia.org/wiki/Affinity_analysis)"
+- link_title: Affinity analysis - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Affinity_analysis
+title: Affinity analysis
 ---

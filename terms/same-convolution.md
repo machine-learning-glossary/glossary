@@ -1,11 +1,13 @@
 ---
-title: Same convolution
-related_terms:
- - convolution
- - convolutional-neural-network-cnn
- - padding-convolution
 references:
- - "[What is the difference between 'SAME' and 'VALID' padding in tf.nn.max_pool of tensorflow?](https://stackoverflow.com/questions/37674306/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-t)"
+- link_title: What is the difference between 'SAME' and 'VALID' padding in tf.nn.max_pool
+    of tensorflow?
+  link_url: https://stackoverflow.com/questions/37674306/what-is-the-difference-between-same-and-valid-padding-in-tf-nn-max-pool-of-t
+related_terms:
+- convolution
+- convolutional-neural-network-cnn
+- padding-convolution
+title: Same convolution
 ---
 A *same convolution* is a type of convolution where the output
 matrix is of the same dimension as the input matrix.

@@ -1,7 +1,8 @@
 ---
-title: Variance
 references:
- - "[Variance - Wikipedia](https://en.wikipedia.org/wiki/Variance)"
+- link_title: Variance - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Variance
+title: Variance
 ---
 Wikipedia describes variance as follows:
 

@@ -1,14 +1,17 @@
 ---
-title: Self-supervised learning
-related_terms:
- - unsupervised-learning
- - supervised-learning
- - autoencoder
- - word2vec
- - word-embedding
 references:
- - "[Is there any difference between distant supervision, self-training, self-supervised learning, and weak supervision? - Cross validated](https://stats.stackexchange.com/questions/125957/is-there-any-difference-between-distant-supervision-self-training-self-supervi)"
- - "[Self-supervised learning - Virginia R. de Sa](http://www.cogsci.ucsd.edu/academicPubs/desa/resareasfile/node3.html)"
+- link_title: Is there any difference between distant supervision, self-training,
+    self-supervised learning, and weak supervision? - Cross validated
+  link_url: https://stats.stackexchange.com/questions/125957/is-there-any-difference-between-distant-supervision-self-training-self-supervi
+- link_title: Self-supervised learning - Virginia R. de Sa
+  link_url: http://www.cogsci.ucsd.edu/academicPubs/desa/resareasfile/node3.html
+related_terms:
+- unsupervised-learning
+- supervised-learning
+- autoencoder
+- word2vec
+- word-embedding
+title: Self-supervised learning
 ---
 Self-supervised learning is a type of
 [supervised learning](/terms/supervised-learning/)

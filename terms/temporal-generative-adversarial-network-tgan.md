@@ -1,7 +1,8 @@
 ---
-title: Temporal Generative Adversarial Network (TGAN)
-related_terms:
- - generative-adversarial-network-gan
 references:
- - "[Temporal Generative Adversarial Networks](https://arxiv.org/abs/1611.06624)"
+- link_title: Temporal Generative Adversarial Networks
+  link_url: https://arxiv.org/abs/1611.06624
+related_terms:
+- generative-adversarial-network-gan
+title: Temporal Generative Adversarial Network (TGAN)
 ---

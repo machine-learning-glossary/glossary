@@ -1,11 +1,14 @@
 ---
-title: Rectified Linear Unit (ReLU)
-related_terms:
- - activation-function
- - neural-network
 references:
- - "[Why do we use ReLU in neural networks and how do we use it?](https://stats.stackexchange.com/questions/226923/why-do-we-use-relu-in-neural-networks-and-how-do-we-use-it)"
- - "[What are the advantages of ReLU over sigmoid function in deep neural networks?](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks)"
+- link_title: Why do we use ReLU in neural networks and how do we use it?
+  link_url: https://stats.stackexchange.com/questions/226923/why-do-we-use-relu-in-neural-networks-and-how-do-we-use-it
+- link_title: What are the advantages of ReLU over sigmoid function in deep neural
+    networks?
+  link_url: https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks
+related_terms:
+- activation-function
+- neural-network
+title: Rectified Linear Unit (ReLU)
 ---
 A Rectified Linear Unit is a common name for a neuron (the "unit")
 with an activation function of $f(x) = \max(0,x)$.

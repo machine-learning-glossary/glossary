@@ -1,12 +1,12 @@
 ---
-title: Multiple crops at test time
-related_terms:
- - data-augmentation
- - alexnet
 references:
- - "[State of computer vision - Convolutional Neural Networks - deeplearning.ai](https://www.coursera.org/learn/convolutional-neural-networks/lecture/D9ra2/state-of-computer-vision)"
+- link_title: State of computer vision - Convolutional Neural Networks - deeplearning.ai
+  link_url: https://www.coursera.org/learn/convolutional-neural-networks/lecture/D9ra2/state-of-computer-vision
+related_terms:
+- data-augmentation
+- alexnet
+title: Multiple crops at test time
 ---
-
 *Multi-crop at test time* is a form of data augmentation that a model uses
 during test time, as opposed to most data augmentation techniques
 that run during training time.

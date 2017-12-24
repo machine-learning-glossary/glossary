@@ -1,15 +1,17 @@
 ---
-title: ADAM Optimizer
-related_terms:
- - adagrad
- - rmsprop
- - stochastic-optimization
- - stochastic-gradient-descent-sgd
 references:
- - "[Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)"
- - "[ADAM - An overview of gradient descent optimization algorithms - Sebastian Ruder](http://sebastianruder.com/optimizing-gradient-descent/index.html#adam)"
+- link_title: 'Adam: A Method for Stochastic Optimization'
+  link_url: https://arxiv.org/abs/1412.6980
+- link_title: ADAM - An overview of gradient descent optimization algorithms - Sebastian
+    Ruder
+  link_url: http://sebastianruder.com/optimizing-gradient-descent/index.html#adam
+related_terms:
+- adagrad
+- rmsprop
+- stochastic-optimization
+- stochastic-gradient-descent-sgd
+title: ADAM Optimizer
 ---
-
 ADAM, or **Ada**ptive **M**oment Estimation, is a stochastic optimization
 method [introduced by Diederik P. Kingma and Jimmy Lei Ba][5].
 

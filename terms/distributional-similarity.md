@@ -1,8 +1,10 @@
 ---
-title: Distributional similarity
 references:
- - "[Distributional semantics - Wikipedia](https://en.wikipedia.org/wiki/Distributional_semantics)"
- - "[word2vec - Stanford CS224N Lecture 2](https://www.youtube.com/watch?v=ERibwqs9p38)"
+- link_title: Distributional semantics - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Distributional_semantics
+- link_title: word2vec - Stanford CS224N Lecture 2
+  link_url: https://www.youtube.com/watch?v=ERibwqs9p38
+title: Distributional similarity
 ---
 Distributional similarity is the idea that the meaning of words can be understood
 from their context.

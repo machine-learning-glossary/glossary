@@ -1,10 +1,11 @@
 ---
-title: Neural checklist model
-related_terms:
- - recurrent-neural-network
- - attention-neural-networks
 references:
- - "[Globally Coherent Text Generation with Neural Checklist Models](https://homes.cs.washington.edu/~yejin/Papers/emnlp16_neuralchecklist.pdf)"
+- link_title: Globally Coherent Text Generation with Neural Checklist Models
+  link_url: https://homes.cs.washington.edu/~yejin/Papers/emnlp16_neuralchecklist.pdf
+related_terms:
+- recurrent-neural-network
+- attention-neural-networks
+title: Neural checklist model
 ---
 Neural checklist models were introduced in the paper [Globally Coherent Text Generation with Neural Checklist Models](https://homes.cs.washington.edu/~yejin/Papers/emnlp16_neuralchecklist.pdf) by Kiddon et al.
 

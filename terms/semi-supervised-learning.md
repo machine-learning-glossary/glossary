@@ -1,13 +1,17 @@
 ---
-title: Semi-supervised learning
-related_terms:
- - unsupervised-learning
- - supervised-learning
- - self-supervised-learning
 references:
- - "[Is there any difference between distant supervision, self-training, self-supervised learning, and weak supervision? - Cross validated](https://stats.stackexchange.com/questions/125957/is-there-any-difference-between-distant-supervision-self-training-self-supervi)"
- - "[Self-supervised learning - Virginia R. de Sa](http://www.cogsci.ucsd.edu/academicPubs/desa/resareasfile/node3.html)"
- - "[Semi-supervised learning - Wikipedia](https://en.wikipedia.org/wiki/Semi-supervised_learning)"
+- link_title: Is there any difference between distant supervision, self-training,
+    self-supervised learning, and weak supervision? - Cross validated
+  link_url: https://stats.stackexchange.com/questions/125957/is-there-any-difference-between-distant-supervision-self-training-self-supervi
+- link_title: Self-supervised learning - Virginia R. de Sa
+  link_url: http://www.cogsci.ucsd.edu/academicPubs/desa/resareasfile/node3.html
+- link_title: Semi-supervised learning - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Semi-supervised_learning
+related_terms:
+- unsupervised-learning
+- supervised-learning
+- self-supervised-learning
+title: Semi-supervised learning
 ---
 Semi-supervised learning mixes labeled and labeled data
 to produce better models.

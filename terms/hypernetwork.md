@@ -1,5 +1,6 @@
 ---
-title: Hypernetwork
 references:
- - "[Hypernetworks](https://arxiv.org/abs/1609.09106)"
+- link_title: Hypernetworks
+  link_url: https://arxiv.org/abs/1609.09106
+title: Hypernetwork
 ---

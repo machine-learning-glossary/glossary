@@ -1,12 +1,14 @@
 ---
-title: Embed, Encode, Attend, Predict
-related_terms:
- - natural-language-processing
- - recurrent-neural-network-language-model-rnnlm
- - word-embedding
- - paragraph-vector
 references:
- - "[Embed, encode, attend, predict: The new deep learning formula for state-of-the-art NLP models - explosion.ai](https://explosion.ai/blog/deep-learning-formula-nlp)"
+- link_title: 'Embed, encode, attend, predict: The new deep learning formula for state-of-the-art
+    NLP models - explosion.ai'
+  link_url: https://explosion.ai/blog/deep-learning-formula-nlp
+related_terms:
+- natural-language-processing
+- recurrent-neural-network-language-model-rnnlm
+- word-embedding
+- paragraph-vector
+title: Embed, Encode, Attend, Predict
 ---
 The phrase *Embed, Encode, Attend, Predict* refers to Matthew
 Honnibal's [conceptual framework for deep learning for natural

@@ -1,12 +1,14 @@
 ---
-title: 1x1 Convolution
-related_terms:
- - convolutional-neural-network-cnn
- - convolution
- - filter-convolution
 references:
- - "[Network In Network](https://arxiv.org/abs/1312.4400)"
- - "[Going Deeper With Convolutions](http://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf)"
+- link_title: Network In Network
+  link_url: https://arxiv.org/abs/1312.4400
+- link_title: Going Deeper With Convolutions
+  link_url: http://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf
+related_terms:
+- convolutional-neural-network-cnn
+- convolution
+- filter-convolution
+title: 1x1 Convolution
 ---
 A *1x1 convolution* or a *network in network* is
 an architectural technique used in some convolutional
