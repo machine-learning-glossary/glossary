@@ -30,3 +30,6 @@ collections:
           - label: Link URL
             name: link_url
             widget: string
+      - label: Definition
+        name: body
+        widget: markdown
