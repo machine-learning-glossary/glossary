@@ -5,7 +5,7 @@ publish_mode: editorial_workflow
 media_folder: images
 collections:
   - name: terms
-    label: Terms
+    label: Term
     folder: terms
     create: true
     slug: "{{slug}}"
@@ -14,13 +14,15 @@ collections:
         name: title
         widget: string
         required: true
-      - label: Related Terms
+      - label: Related Term
         name: related_terms
-        widget: relation
-        collection: terms
-        searchFields: [title, slug]
-        valueField: slug
-      - label: References
+        widget: list
+        field:
+          - widget: relation
+            collection: terms
+            searchFields: [title, slug]
+            valueField: slug
+      - label: Reference
         name: new_references
         widget: list
         fields:
