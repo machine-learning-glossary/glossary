@@ -1,6 +1,6 @@
 ---
 references:
-- link_title: State of computer vision - Convolutional Neural Networks - deeplearing.ai
+- link_title: State of computer vision - Convolutional Neural Networks - deeplearning.ai
   link_url: https://www.coursera.org/learn/convolutional-neural-networks/lecture/D9ra2/state-of-computer-vision
 related_terms:
 - data-augmentation
