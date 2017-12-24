@@ -1,6 +1,10 @@
 ---
-title: Inception neural network
+title: Inception
 related_terms:
+ - convolutional-neural-network-cnn
+ - alexnet
+ - lenet
+ - vggnet
  - googlenet-neural-network
 references:
  - "[google/inception - Github](https://github.com/google/inception)"
@@ -13,9 +17,3 @@ references:
 ---
 *Inception* refers to a particular neural network model in the
 CVPR 2015 paper titled [Going Deeper With Convolutions](https://arxiv.org/abs/1409.4842).
-
-*Inceptionism* refers to a visualization technique to understand what
-a neural network learned. The network is fed an image,
-asked what the network detected, and then that feature in the
-image is *amplified*. The full technique is described in the
-Google Research blog post titled [Inceptionism: Going Deeper into Neural Networks](https://research.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html).
