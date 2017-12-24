@@ -11,7 +11,7 @@ references:
 or other synthetic means to increase the size of a collected dataset.
 
 Machine learning algorithms typically become more resistant
-to [overfitting(/terms/overfitting) when they are trained with more data.
+to [overfitting](/terms/overfitting) when they are trained with more data.
 But in many cases, it can be expensive to collect more data.
 
 It is often possible to significantly increase the size of a dataset

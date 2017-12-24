@@ -42,7 +42,8 @@ The AlexNet paper describes PCA Color Augmentation in this paragraph:
 > ImageNet training set. To each training image, we add multiples of the found principal components, with magnitudes proportional to the corresponding eigenvalues times a random variable drawn from
 a Gaussian with mean zero and standard deviation 0.1. Therefore to each RGB image pixel $I_{xy} = \left [ I^R_{xy}, I^G_{xy}, I^B_{xy} \right ]^T$, we add the following quantity:
 >
-> $$\left [ \mathbf p_1, p_2, p_3 \right ] \left [ \alpha_1 \lambda_1, \alpha_2 \lambda_2, \alpha_3 \lambda_3 \right ]^T$$
+> $$\left [ \mathbf p_1, \mathbf p_2, \mathbf p_3 \right ]
+\left [ \alpha_1 \lambda_1, \alpha_2 \lambda_2, \alpha_3 \lambda_3 \right ]^T$$
 
 [1]: /terms/data-augmentation/
 [2]: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf

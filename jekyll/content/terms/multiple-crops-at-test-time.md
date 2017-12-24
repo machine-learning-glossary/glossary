@@ -12,6 +12,7 @@ during test time, as opposed to most data augmentation techniques
 that run during training time.
 
 Broadly, the technique involves:
+
  - cropping a test image in multiple ways
  - using the model to classify these cropped variants of the test image
  - averaging the results of the model's many predictions
