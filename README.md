@@ -1,20 +1,12 @@
 # [Machine Learning Glossary - https://machinelearning.wtf/](https://machinelearning.wtf/)
-[![Build Status](https://travis-ci.org/machine-learning-glossary/glossary.svg?branch=master)](https://travis-ci.org/machine-learning-glossary/glossary)
+
 ## About
 This is a website to build an online glossary for machine learning
 terms--with an emphasis on brief, concise descriptions.
 
 ## Development
-Most of the website's content is in Pandoc Markdown files. Jekyll
-runs inside a Docker container to turn the Markdown into HTML.
+Most of the website's content is in Pandoc Markdown files.
 LaTeX mathematics is rendered with MathJax.
-
-To build the Docker container, run `./build.sh`.
-
-To build the Jekyll website and serve locally, run `./serve.sh`.
-
-Deployment is done with `./deploy.sh`, but that is automated using
-[our build on Travis CI](https://travis-ci.org/machine-learning-glossary/glossary).
 
 ## Writing
 Terms should be written in Markdown, as that is what the templates are
