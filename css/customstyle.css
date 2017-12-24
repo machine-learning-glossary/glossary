@@ -62,6 +62,10 @@ a:focus   {
   outline: 1px dotted currentColor;
 }
 
+a > code {
+  font-size: x-small;
+}
+
 /* Style for images and figures */
 
 figure {
