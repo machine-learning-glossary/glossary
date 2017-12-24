@@ -1,7 +1,8 @@
 ---
-title: Filter (convolution)
 references:
- - "[Kernel (image processig) - Wikipedia](https://en.wikipedia.org/wiki/Kernel_(image_processing))"
+- link_title: Kernel (image processig) - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Kernel_(image_processing
+title: Filter (convolution)
 ---
 A *filter* (also known as a *kernel*) is a small matrix
 used in convolution operations.

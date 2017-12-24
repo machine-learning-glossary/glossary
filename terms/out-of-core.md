@@ -1,8 +1,10 @@
 ---
-title: Out-of-core
 references:
- - "[Out-of-core algorithm](https://en.wikipedia.org/wiki/Out-of-core_algorithm)"
- - "[Scaling with instances using out-of-core learning - scikit-learn documentation](http://scikit-learn.org/stable/modules/scaling_strategies.html#scaling-with-instances-using-out-of-core-learning)"
+- link_title: Out-of-core algorithm
+  link_url: https://en.wikipedia.org/wiki/Out-of-core_algorithm
+- link_title: Scaling with instances using out-of-core learning - scikit-learn documentation
+  link_url: http://scikit-learn.org/stable/modules/scaling_strategies.html#scaling-with-instances-using-out-of-core-learning
+title: Out-of-core
 ---
 The term *out-of-core* typically refers to processing data that is too large
 to fit into a computer's main memory.

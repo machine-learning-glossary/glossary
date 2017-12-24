@@ -1,12 +1,14 @@
 ---
-title: 1-bit Stochastic Gradient Descent (1-bit SGD)
-related_terms:
- - backpropagation
- - stochastic-gradient-descent-sgd
- - optimization
- - data-parallelism
 references:
- - "[1-Bit Stochastic Gradient Descent and Application to Data-Parallel Distributed Training of Speech DNNs](https://www.microsoft.com/en-us/research/publication/1-bit-stochastic-gradient-descent-and-application-to-data-parallel-distributed-training-of-speech-dnns/)"
+- link_title: 1-Bit Stochastic Gradient Descent and Application to Data-Parallel Distributed
+    Training of Speech DNNs
+  link_url: https://www.microsoft.com/en-us/research/publication/1-bit-stochastic-gradient-descent-and-application-to-data-parallel-distributed-training-of-speech-dnns/
+related_terms:
+- backpropagation
+- stochastic-gradient-descent-sgd
+- optimization
+- data-parallelism
+title: 1-bit Stochastic Gradient Descent (1-bit SGD)
 ---
 1-bit Stochastic Gradient Descent is a technique from Microsoft Research aimed at
 increasing the [data parallelism][1] inherent in training deep neural networks.

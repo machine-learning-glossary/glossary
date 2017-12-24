@@ -1,11 +1,14 @@
 ---
-title: Autoencoder
-related_terms:
- - representation-learning
 references:
- - "[Autoencoder - Wikipedia](https://en.wikipedia.org/wiki/Autoencoder)"
- - "[Autoencoders - Deep Learning Tutorial](http://deeplearning.net/tutorial/dA.html#autoencoders)"
- - "[What is the difference between an autoencoder and a neural network?](https://www.quora.com/What-is-the-difference-between-a-neural-network-and-an-autoencoder-network/answer/Patrick-Hall-4)"
+- link_title: Autoencoder - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Autoencoder
+- link_title: Autoencoders - Deep Learning Tutorial
+  link_url: http://deeplearning.net/tutorial/dA.html#autoencoders
+- link_title: What is the difference between an autoencoder and a neural network?
+  link_url: https://www.quora.com/What-is-the-difference-between-a-neural-network-and-an-autoencoder-network/answer/Patrick-Hall-4
+related_terms:
+- representation-learning
+title: Autoencoder
 ---
 Autoencoders are an [unsupervised learning][1] model that aim to learn
 [distributed representations][2] of data.

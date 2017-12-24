@@ -1,14 +1,15 @@
 ---
-title: Bias-variance tradeoff
-related_terms:
- - regularization
- - variance
- - bias
- - supervised-learning
- - underfitting
- - overfitting
 references:
- - "[Bias-variance tradeoff - Wikipedia](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)"
+- link_title: Bias-variance tradeoff - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff
+related_terms:
+- regularization
+- variance
+- bias
+- supervised-learning
+- underfitting
+- overfitting
+title: Bias-variance tradeoff
 ---
 The bias-variance tradeoff refers to the problem of minimizing two different sources of error
 when training a supervised learning model:

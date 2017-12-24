@@ -1,11 +1,14 @@
 ---
-title: Beam search
-related_terms:
- - recurrent-neural-network
- - sequence-to-sequence-learning-seq2seq
 references:
- - "[Beam search - Wikipedia](https://en.wikipedia.org/wiki/Beam_search)"
- - "[Why is beam search required in sequence-to-sequence transduction using recurrent neural networks? - Quora](https://www.quora.com/Why-is-beam-search-required-in-sequence-to-sequence-transduction-using-recurrent-neural-networks)"
+- link_title: Beam search - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Beam_search
+- link_title: Why is beam search required in sequence-to-sequence transduction using
+    recurrent neural networks? - Quora
+  link_url: https://www.quora.com/Why-is-beam-search-required-in-sequence-to-sequence-transduction-using-recurrent-neural-networks
+related_terms:
+- recurrent-neural-network
+- sequence-to-sequence-learning-seq2seq
+title: Beam search
 ---
 Beam search is a memory-restricted version of breadth-first search.
 

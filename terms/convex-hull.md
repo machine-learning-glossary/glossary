@@ -1,12 +1,15 @@
 ---
-title: Convex hull
-related_terms:
- - convex-combination
- - affine-space
 references:
- - "[Convex hull - Wikipedia](https://en.wikipedia.org/wiki/Convex_hull)"
- - "[Convex set - Wikipedia](https://en.wikipedia.org/wiki/Convex_set)"
- - "[Convex combination - Wikipedia](https://en.wikipedia.org/wiki/Convex_combination)"
+- link_title: Convex hull - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Convex_hull
+- link_title: Convex set - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Convex_set
+- link_title: Convex combination - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Convex_combination
+related_terms:
+- convex-combination
+- affine-space
+title: Convex hull
 ---
 The convex hull of a set $X$ in an affine space over the reals is the smallest
 [convex set][1] that contains $X$. When the points are two dimensional,

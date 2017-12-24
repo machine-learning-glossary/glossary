@@ -1,9 +1,10 @@
 ---
-title: METEOR
-related_terms:
- - bilingual-evaluation-understudy-bleu
 references:
- - "[METEOR - Automatic Machine Translation Evaluation System](http://www.cs.cmu.edu/~alavie/METEOR/)"
+- link_title: METEOR - Automatic Machine Translation Evaluation System
+  link_url: http://www.cs.cmu.edu/~alavie/METEOR/
+related_terms:
+- bilingual-evaluation-understudy-bleu
+title: METEOR
 ---
 METEOR is an automatic evaluation metric for machine translation,
 designed to mitigate perceived weaknesses in

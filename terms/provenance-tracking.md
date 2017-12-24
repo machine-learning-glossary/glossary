@@ -1,8 +1,11 @@
 ---
-title: Provenance tracking
 references:
- - "[Provenance tracking - Best practices for data management in neurophysiology](http://rrcns.readthedocs.io/en/latest/provenance_tracking.html)"
- - "[Data Science Workflow: Overview and Challenges - Communications of the ACM](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext)"
+- link_title: Provenance tracking - Best practices for data management in neurophysiology
+  link_url: http://rrcns.readthedocs.io/en/latest/provenance_tracking.html
+- link_title: 'Data Science Workflow: Overview and Challenges - Communications of
+    the ACM'
+  link_url: https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext
+title: Provenance tracking
 ---
 In data acquisition, provenance tracking is keeping track of
 "where each piece of data comes from and whether it is still up-to-date".

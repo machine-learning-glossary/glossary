@@ -1,8 +1,10 @@
 ---
-title: Backpropagation
-related_terms:
- - gradient-descent
 references:
- - "[Yes you should understand backprop - Andrej Karpathy](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)"
- - "[Backpropagation - Wikipedia](https://en.wikipedia.org/wiki/Backpropagation)"
+- link_title: Yes you should understand backprop - Andrej Karpathy
+  link_url: https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
+- link_title: Backpropagation - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Backpropagation
+related_terms:
+- gradient-descent
+title: Backpropagation
 ---

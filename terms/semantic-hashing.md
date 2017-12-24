@@ -1,10 +1,11 @@
 ---
-title: Semantic hashing
-related_terms:
- - autoencoder
- - word-embedding
 references:
- - "[Semantic Hashing](https://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf)"
+- link_title: Semantic Hashing
+  link_url: https://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf
+related_terms:
+- autoencoder
+- word-embedding
+title: Semantic hashing
 ---
 A *hash* is a small, lossy representation of a data point. Typically hashes
 are fixed-sized representations of variable-sized data.

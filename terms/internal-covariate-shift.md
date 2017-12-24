@@ -1,11 +1,13 @@
 ---
-title: Internal covariate shift
-related_terms:
- - neural-network
- - covariate-shift
- - batch-normalization
 references:
- - "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)"
+- link_title: 'Batch Normalization: Accelerating Deep Network Training by Reducing
+    Internal Covariate Shift'
+  link_url: https://arxiv.org/abs/1502.03167
+related_terms:
+- neural-network
+- covariate-shift
+- batch-normalization
+title: Internal covariate shift
 ---
 The term *interal covariate shift* comes from the paper
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift][1].

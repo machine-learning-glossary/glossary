@@ -1,5 +1,6 @@
 ---
-title: Autocorrelation matrix
 references:
- - "[Autocorrelation matrix - Wikipedia](https://en.wikipedia.org/wiki/Autocorrelation_matrix)"
+- link_title: Autocorrelation matrix - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Autocorrelation_matrix
+title: Autocorrelation matrix
 ---

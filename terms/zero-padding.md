@@ -1,12 +1,16 @@
 ---
-title: Zero padding
-related_terms:
- - convolutional-neural-network-cnn
- - max-pooling
 references:
- - "[FFT Zero Padding - Bitweenie](http://www.bitweenie.com/listings/fft-zero-padding/)"
- - "[Why should I zero-pad a signal before taking the Fourier transform? - Statistics StackExchange](https://dsp.stackexchange.com/questions/741/why-should-i-zero-pad-a-signal-before-taking-the-fourier-transform)"
- - "[Convolutional Layers: To pad or not to pad?](https://stats.stackexchange.com/questions/246512/convolutional-layers-to-pad-or-not-to-pad)"
+- link_title: FFT Zero Padding - Bitweenie
+  link_url: http://www.bitweenie.com/listings/fft-zero-padding/
+- link_title: Why should I zero-pad a signal before taking the Fourier transform?
+    - Statistics StackExchange
+  link_url: https://dsp.stackexchange.com/questions/741/why-should-i-zero-pad-a-signal-before-taking-the-fourier-transform
+- link_title: 'Convolutional Layers: To pad or not to pad?'
+  link_url: https://stats.stackexchange.com/questions/246512/convolutional-layers-to-pad-or-not-to-pad
+related_terms:
+- convolutional-neural-network-cnn
+- max-pooling
+title: Zero padding
 ---
 ## Signal processing
 In signal processing, zero padding refers to the practice of adding zeroes to a time-domain

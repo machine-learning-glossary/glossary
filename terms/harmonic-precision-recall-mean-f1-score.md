@@ -1,8 +1,10 @@
 ---
-title: "Harmonic Precision-Recall Mean (F1 Score)"
 references:
- - "[Precision and recall - Wikipedia](https://en.wikipedia.org/wiki/Precision_and_recall)"
- - "[F1 score](https://en.wikipedia.org/wiki/F1_score)"
+- link_title: Precision and recall - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Precision_and_recall
+- link_title: F1 score
+  link_url: https://en.wikipedia.org/wiki/F1_score
+title: Harmonic Precision-Recall Mean (F1 Score)
 ---
 The $F_1$ score is a classification accuracy metric
 that combines precision and recall. It is designed

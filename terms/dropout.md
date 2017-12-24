@@ -1,12 +1,15 @@
 ---
-title: Dropout
-related_terms:
- - regularization
- - model-averaging
 references:
- - "[Dropout (neural networks) - Wikipedia](https://en.wikipedia.org/wiki/Dropout_(neural_networks))"
- - "[How does the dropout method work in deep learning? - Quora](https://www.quora.com/How-does-the-dropout-method-work-in-deep-learning)"
- - "[Improving neural networks by preventing co-adaptation of feature detectors](https://arxiv.org/abs/1207.0580)"
+- link_title: Dropout (neural networks) - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Dropout_(neural_networks
+- link_title: How does the dropout method work in deep learning? - Quora
+  link_url: https://www.quora.com/How-does-the-dropout-method-work-in-deep-learning
+- link_title: Improving neural networks by preventing co-adaptation of feature detectors
+  link_url: https://arxiv.org/abs/1207.0580
+related_terms:
+- regularization
+- model-averaging
+title: Dropout
 ---
 Dropout is a technique for [regularizing](/terms/regularization)
 neural networks, developed by Hinton et al. and published

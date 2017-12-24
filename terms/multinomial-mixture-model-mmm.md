@@ -1,11 +1,13 @@
 ---
-title: Multinomial mixture model
-related_terms:
- - gaussian-mixture-model-gmm
- - multinomial-distribution
 references:
- - "[Multinomial distribution - Wikipedia](https://en.wikipedia.org/wiki/Multinomial_distribution)"
- - "[Mixture model - Wikipedia](https://en.wikipedia.org/wiki/Mixture_model)"
+- link_title: Multinomial distribution - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Multinomial_distribution
+- link_title: Mixture model - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Mixture_model
+related_terms:
+- gaussian-mixture-model-gmm
+- multinomial-distribution
+title: Multinomial mixture model
 ---
 A multinomial mixture model is a mixture of multinomial distributions.
 

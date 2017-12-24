@@ -1,7 +1,8 @@
 ---
-title: Standard deviation
-related_terms:
- - variance
 references:
- - "[Standard deviation - Wikipedia](https://en.wikipedia.org/wiki/Standard_deviation)"
+- link_title: Standard deviation - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Standard_deviation
+related_terms:
+- variance
+title: Standard deviation
 ---
