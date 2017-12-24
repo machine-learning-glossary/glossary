@@ -17,6 +17,7 @@ where $s$ represents the stride length and
 $p$ represents the padding.
 
 In a same convolution:
+
  - $s$ is typically set to $1$
  - $p$ is set to $\frac{f - 1}{2}$
  - $f$ is an odd number

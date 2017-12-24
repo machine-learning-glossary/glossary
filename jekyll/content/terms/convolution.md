@@ -14,17 +14,20 @@ convolution operation. The input matrix is often padded to control
 the output dimensions of the convolution, or ot preserve information
 around the edges of the input matrix.
 
+## Stride
+[Stride][2] is the number of steps the filter
+takes in the convolution operation. 
+
 ## Calculating the output dimensions of a convolution
 For example, let's say we have $n \times n$ matrix $A$ and a
-$f \times f$ filter $F$. The output dimension depends on two
-parameters:
-
- - [Padding][1] $p$ -- how much we choose to pad the borders of $A$
- - [Stride][2] $s$ -- the number of steps the filter takes in the convolution
- operation.
+$f \times f$ filter $F$. The output dimension depends on two parameters -- padding $p$ and stride $s$.
 
 The dimensions for the output matrix $A * F$ will be
-$\left \lfloor \frac{n + 2p - f}{s} \right \rfloor + 1 \times \left \lfloor \frac{n + 2p - f}{s} \right \rfloor + 1$.
+
+$$
+\left \lfloor \frac{n + 2p - f}{s} \right \rfloor + 1 \times
+\left \lfloor \frac{n + 2p - f}{s} \right \rfloor + 1
+$$.
 
 In a [same convolution][3], $s = 1$ and $p = \frac{f - 1}{2}$.
 The $n \times n$ matrix $A$ gets padded to $ n + p \times n + p$
