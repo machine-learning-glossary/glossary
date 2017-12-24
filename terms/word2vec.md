@@ -1,13 +1,15 @@
 ---
-title: word2vec
-related_terms:
- - word-embedding
- - skip-gram
- - continuous-bag-of-words-cbow
- - doc2vec
 references:
- - "[Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781)"
- - "[Vector Representations of Words - Tutorials - TensorFlow Documentation](https://www.tensorflow.org/tutorials/word2vec)"
+- link_title: Efficient Estimation of Word Representations in Vector Space
+  link_url: https://arxiv.org/abs/1301.3781
+- link_title: Vector Representations of Words - Tutorials - TensorFlow Documentation
+  link_url: https://www.tensorflow.org/tutorials/word2vec
+related_terms:
+- word-embedding
+- skip-gram
+- continuous-bag-of-words-cbow
+- doc2vec
+title: word2vec
 ---
 `word2vec` refers to a pair of models, open-source software, and pre-trained word embeddings
 from Google.

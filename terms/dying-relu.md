@@ -1,10 +1,12 @@
 ---
-title: Dying ReLU
-related_terms:
- - leaky-relu
- - rectified-linear-unit-relu
 references:
- - '[What is the “dying ReLU” problem in neural networks? - Data Science StackExchange](https://datascience.stackexchange.com/questions/5706/what-is-the-dying-relu-problem-in-neural-networks)'
+- link_title: "What is the \u201Cdying ReLU\u201D problem in neural networks? - Data\
+    \ Science StackExchange"
+  link_url: https://datascience.stackexchange.com/questions/5706/what-is-the-dying-relu-problem-in-neural-networks
+related_terms:
+- leaky-relu
+- rectified-linear-unit-relu
+title: Dying ReLU
 ---
 *Dying ReLU* refers to a problem when training neural 
 networks with [rectified linear units (ReLU)][1].

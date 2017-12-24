@@ -1,8 +1,10 @@
 ---
-title: Child-Sum Tree-LSTM
-related_terms:
- - long-short-term-memory-lstm
- - tree-lstm
 references:
- - "[Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks](https://arxiv.org/abs/1503.00075)"
+- link_title: Improved Semantic Representations From Tree-Structured Long Short-Term
+    Memory Networks
+  link_url: https://arxiv.org/abs/1503.00075
+related_terms:
+- long-short-term-memory-lstm
+- tree-lstm
+title: Child-Sum Tree-LSTM
 ---

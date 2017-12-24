@@ -1,8 +1,11 @@
 ---
-title: Data parallelism
 references:
- - "[Data parallelism - Wikipedia](https://en.wikipedia.org/wiki/Data_parallelism)"
- - "[What is the difference between model parallelism and data parallelism? - Quora](https://www.quora.com/What-is-the-difference-between-model-parallelism-and-data-parallelism)"
+- link_title: Data parallelism - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Data_parallelism
+- link_title: What is the difference between model parallelism and data parallelism?
+    - Quora
+  link_url: https://www.quora.com/What-is-the-difference-between-model-parallelism-and-data-parallelism
+title: Data parallelism
 ---
 Data parallelism is when data is distributed across multiple
 nodes in a distributed computing environment, and then

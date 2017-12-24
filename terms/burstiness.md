@@ -1,8 +1,9 @@
 ---
-title: Burstiness
 needs_review: true
 references:
- - "[Burstiness - Wikipedia](https://en.wikipedia.org/wiki/Burstiness)"
+- link_title: Burstiness - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Burstiness
+title: Burstiness
 ---
 Wikipedia defines burstiness as follows:
 

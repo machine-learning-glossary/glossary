@@ -1,11 +1,14 @@
 ---
-title: ResNet
-related_terms:
- - convolutional-neural-network-cnn
 references:
- - "[Case Studies - Stanford CS231n Convolutional Neural Networks](http://cs231n.github.io/convolutional-networks/#case)"
- - "[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)"
- - "[Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)"
+- link_title: Case Studies - Stanford CS231n Convolutional Neural Networks
+  link_url: http://cs231n.github.io/convolutional-networks/#case
+- link_title: Deep Residual Learning for Image Recognition
+  link_url: https://arxiv.org/abs/1512.03385
+- link_title: Identity Mappings in Deep Residual Networks
+  link_url: https://arxiv.org/abs/1603.05027
+related_terms:
+- convolutional-neural-network-cnn
+title: ResNet
 ---
 ResNet stands for "Residual Network" and was introduced in the paper
 [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385).

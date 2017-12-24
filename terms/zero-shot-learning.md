@@ -1,11 +1,13 @@
 ---
-title: Zero-shot learning
-related_terms:
- - one-shot-learning
- - representation-learning
 references:
- - "[What is zero-shot learning?](https://www.quora.com/What-is-zero-shot-learning)"
- - "[Representation Learning - Deep Learning Book](http://www.deeplearningbook.org/contents/representation.html)"
+- link_title: What is zero-shot learning?
+  link_url: https://www.quora.com/What-is-zero-shot-learning
+- link_title: Representation Learning - Deep Learning Book
+  link_url: http://www.deeplearningbook.org/contents/representation.html
+related_terms:
+- one-shot-learning
+- representation-learning
+title: Zero-shot learning
 ---
 Ian Goodfellow in [a Quora answer][1] defines zero-shot learning as the following:
 

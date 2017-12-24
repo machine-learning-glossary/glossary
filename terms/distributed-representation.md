@@ -1,10 +1,13 @@
 ---
-title: Distributed representation
-related_terms:
- - word-embedding
 references:
- - "[Distributed Representation - Directory of Cognitive Science](http://www.bcp.psych.ualberta.ca/~mike/Pearl_Street/Dictionary/contents/D/distributed.html)"
- - "[Local and distributed representations - Programming Methods for Cognitive Science](http://www.indiana.edu/~gasser/Q530/Notes/representation.html)"
+- link_title: Distributed Representation - Directory of Cognitive Science
+  link_url: http://www.bcp.psych.ualberta.ca/~mike/Pearl_Street/Dictionary/contents/D/distributed.html
+- link_title: Local and distributed representations - Programming Methods for Cognitive
+    Science
+  link_url: http://www.indiana.edu/~gasser/Q530/Notes/representation.html
+related_terms:
+- word-embedding
+title: Distributed representation
 ---
 In machine learning, data with a *local representation* typically has 1 unit per element.
 A 5-word vocabulary might be defined by a 5-dimensional vector, with

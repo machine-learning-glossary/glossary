@@ -1,9 +1,10 @@
 ---
-title: Pooling layer
-related_terms:
- - convolutional-neural-network-cnn
 references:
- - "[Pooling layer - CS231n Notes](http://cs231n.github.io/convolutional-networks/#pool)"
+- link_title: Pooling layer - CS231n Notes
+  link_url: http://cs231n.github.io/convolutional-networks/#pool
+related_terms:
+- convolutional-neural-network-cnn
+title: Pooling layer
 ---
 A *pooling layer* is a common type of layer in a
 [convolutional neural network (CNN)][1]. A pooling layer does not contain

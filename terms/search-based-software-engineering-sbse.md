@@ -1,9 +1,9 @@
 ---
-title: Search-based software engineering (SBSE)
 references:
- - "[Search-based software engineering - Wikipedia](https://en.wikipedia.org/wiki/Search-based_software_engineering)"
+- link_title: Search-based software engineering - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Search-based_software_engineering
+title: Search-based software engineering (SBSE)
 ---
-
 Search-based software engineering applies search and
 optimization techniques to software engineering problems.
 

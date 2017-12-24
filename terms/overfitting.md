@@ -1,9 +1,10 @@
 ---
-title: Overfitting
-related_terms:
- - supervised-learning
 references:
- - "[Overfitting - Wikipedia](https://en.wikipedia.org/wiki/Overfitting)"
+- link_title: Overfitting - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Overfitting
+related_terms:
+- supervised-learning
+title: Overfitting
 ---
 Overfitting is when a statistical model learns patterns in the training
 data that are too complex to generalize well.

@@ -1,10 +1,11 @@
 ---
-title: Mean Reciprocal Rank (MRR)
 references:
- - "[Chapter 28: Question Answering - Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/28.pdf)"
- - "[Mean reciprocal rank - Wikipedia](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)"
+- link_title: 'Chapter 28: Question Answering - Speech and Language Processing'
+  link_url: https://web.stanford.edu/~jurafsky/slp3/28.pdf
+- link_title: Mean reciprocal rank - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Mean_reciprocal_rank
+title: Mean Reciprocal Rank (MRR)
 ---
-
 $\newcommand{\Correctrank}{\mathrm{rank}}$
 
 Mean Reciprocal Rank is a measure to evaluate systems that return
@@ -20,4 +21,3 @@ For multiple queries $Q$, the Mean Reciprocal Rank is the mean
 of the $Q$ reciprocal ranks.
 
 $$\mathrm{MRR} = \frac 1 Q \sum_{i=1}^{Q} \frac 1 {\Correctrank_i}$$
-

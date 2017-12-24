@@ -1,8 +1,10 @@
 ---
-title: Bag-of-words
 references:
- - "[Bag-of-words model - Wikipedia](https://en.wikipedia.org/wiki/Bag-of-words_model)"
- - "[Bag of Words Meets Bags of Popcorn - Kaggle](https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words)"
+- link_title: Bag-of-words model - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Bag-of-words_model
+- link_title: Bag of Words Meets Bags of Popcorn - Kaggle
+  link_url: https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
+title: Bag-of-words
 ---
 The phrase *bag-of-words* typically refers to a way of representing
 text in natural language processing, although [it has been applied to computer vision][1].

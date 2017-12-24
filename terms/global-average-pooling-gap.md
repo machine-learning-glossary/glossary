@@ -1,7 +1,8 @@
 ---
-title: Global Average Pooling (GAP)
-related_terms:
- - pooling-layer
 references:
- - "[Learning Deep Features for Discriminative Localization](http://cnnlocalization.csail.mit.edu/)"
+- link_title: Learning Deep Features for Discriminative Localization
+  link_url: http://cnnlocalization.csail.mit.edu/
+related_terms:
+- pooling-layer
+title: Global Average Pooling (GAP)
 ---

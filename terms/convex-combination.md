@@ -1,9 +1,10 @@
 ---
-title: Convex combination
-related_terms:
- - convex-optimization
 references:
- - "[Convex combination - Wikipedia](https://en.wikipedia.org/wiki/Convex_combination)"
+- link_title: Convex combination - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Convex_combination
+related_terms:
+- convex-optimization
+title: Convex combination
 ---
 A convex combination is a linear combination, where all
 the coefficients are greater than 0 and sum to 1.

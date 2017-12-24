@@ -1,7 +1,8 @@
 ---
-title: Nonparametric
-related_terms:
- - nonparametric-clustering
 references:
- - "[Nonparametric statistics - Wikipedia](https://en.wikipedia.org/wiki/Nonparametric_statistics)"
+- link_title: Nonparametric statistics - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Nonparametric_statistics
+related_terms:
+- nonparametric-clustering
+title: Nonparametric
 ---

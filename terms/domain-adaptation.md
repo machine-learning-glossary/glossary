@@ -1,5 +1,6 @@
 ---
-title: Domain adaptation
 references:
- - "[Domain adaptation - Wikipedia](https://en.wikipedia.org/wiki/Domain_adaptation)"
+- link_title: Domain adaptation - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Domain_adaptation
+title: Domain adaptation
 ---

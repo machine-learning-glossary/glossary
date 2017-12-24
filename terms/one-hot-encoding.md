@@ -1,10 +1,12 @@
 ---
-title: One-hot encoding
-related_terms:
- - distributed-representation
 references:
- - "[One-hot - Wikipedia](https://en.wikipedia.org/wiki/One-hot)"
- - "[What is one hot encoding and when is it used in data science?](https://www.quora.com/What-is-one-hot-encoding-and-when-is-it-used-in-data-science)"
+- link_title: One-hot - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/One-hot
+- link_title: What is one hot encoding and when is it used in data science?
+  link_url: https://www.quora.com/What-is-one-hot-encoding-and-when-is-it-used-in-data-science
+related_terms:
+- distributed-representation
+title: One-hot encoding
 ---
 *One-hot encoding* refers to a way of transforming data into vectors
 where all components are 0, except for one component with a value of 1,

@@ -1,9 +1,10 @@
 ---
-title: Softmax
-related_terms:
- - hierarchical-softmax
 references:
- - "[Softmax function - Wikipedia](https://en.wikipedia.org/wiki/Softmax_function)"
+- link_title: Softmax function - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Softmax_function
+related_terms:
+- hierarchical-softmax
+title: Softmax
 ---
 The softmax turns $n$ numbers
 in $\mathbb R^N$ into a probability distribution proportional

@@ -1,12 +1,12 @@
 ---
-title: Momentum
-related_terms:
- - stochastic-optimization
- - stochastic-gradient-descent-sgd
 references:
- - "[Why Momentum Really Works - Distill](http://distill.pub/2017/momentum/)"
+- link_title: Why Momentum Really Works - Distill
+  link_url: http://distill.pub/2017/momentum/
+related_terms:
+- stochastic-optimization
+- stochastic-gradient-descent-sgd
+title: Momentum
 ---
-
 Momentum is commonly understood as a variation of [stochastic gradient descent][1],
 but with one important difference: stochastic gradient descent can
 unnecessarily oscillate, and doesn't accelerate based on the shape of the

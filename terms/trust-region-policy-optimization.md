@@ -1,7 +1,8 @@
 ---
-title: Trust Region Policy Optimization (TRPO)
-related_terms:
- - optimization
 references:
- - "[Trust Region Policy Optimization](https://arxiv.org/abs/1502.05477)"
+- link_title: Trust Region Policy Optimization
+  link_url: https://arxiv.org/abs/1502.05477
+related_terms:
+- optimization
+title: Trust Region Policy Optimization (TRPO)
 ---

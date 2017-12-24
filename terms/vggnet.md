@@ -1,11 +1,15 @@
 ---
-title: VGGNet
-related_terms:
- - convolutional-neural-network-cnn
 references:
- - "[Very Deep Convolutional Networks for Large-Scale Visual Recognition - Department of Engineering Science, University of Oxford](http://www.robots.ox.ac.uk/~vgg/research/very_deep/)"
- - "[Case Studies - Stanford CS231n Convolutional Neural Networks](http://cs231n.github.io/convolutional-networks/#case)"
- - "[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)"
+- link_title: Very Deep Convolutional Networks for Large-Scale Visual Recognition
+    - Department of Engineering Science, University of Oxford
+  link_url: http://www.robots.ox.ac.uk/~vgg/research/very_deep/
+- link_title: Case Studies - Stanford CS231n Convolutional Neural Networks
+  link_url: http://cs231n.github.io/convolutional-networks/#case
+- link_title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  link_url: https://arxiv.org/abs/1409.1556
+related_terms:
+- convolutional-neural-network-cnn
+title: VGGNet
 ---
 VGGNet is a deep convolutional neural network 
 for image recognition, trained by

@@ -1,5 +1,6 @@
 ---
-title: Finite-state transducer (FST)
 references:
- - "[Finite state transducer - Wikipedia](https://en.wikipedia.org/wiki/Finite-state_transducer)"
+- link_title: Finite state transducer - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Finite-state_transducer
+title: Finite-state transducer (FST)
 ---

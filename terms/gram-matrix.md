@@ -1,9 +1,12 @@
 ---
-title: Gram matrix
 references:
- - "[Gramian matrix - Wikipedia](https://en.wikipedia.org/wiki/Gramian_matrix)"
- - "[Gram Matrix - Wolfram Mathworld](http://mathworld.wolfram.com/GramMatrix.html)"
- - "[Gram matrix - Encyclopedia of Mathematics](https://www.encyclopediaofmath.org/index.php/Gram_matrix)"
+- link_title: Gramian matrix - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Gramian_matrix
+- link_title: Gram Matrix - Wolfram Mathworld
+  link_url: http://mathworld.wolfram.com/GramMatrix.html
+- link_title: Gram matrix - Encyclopedia of Mathematics
+  link_url: https://www.encyclopediaofmath.org/index.php/Gram_matrix
+title: Gram matrix
 ---
 [Wolfram Mathworld defines Gram matrix as][1]:
 

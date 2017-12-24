@@ -1,8 +1,10 @@
 ---
-title: Facet
 references:
- - "[Facets (ggplot2)](http://www.cookbook-r.com/Graphs/Facets_(ggplot2)/)"
- - "[Plotting multiple groups with facets in ggplot2](https://www3.nd.edu/~steve/computing_with_data/13_Facets/facets.html)"
+- link_title: Facets (ggplot2)
+  link_url: http://www.cookbook-r.com/Graphs/Facets_(ggplot2
+- link_title: Plotting multiple groups with facets in ggplot2
+  link_url: https://www3.nd.edu/~steve/computing_with_data/13_Facets/facets.html
+title: Facet
 ---
 In statistical plotting, a facet is a type of plot. Data
 is split into subsets and the subsets are plotted

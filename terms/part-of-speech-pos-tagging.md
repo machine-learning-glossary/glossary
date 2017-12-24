@@ -1,9 +1,10 @@
 ---
-title: Part-of-Speech (POS) Tagging
-related_terms:
- - natural-language-processing
 references:
- - "[Part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)"
+- link_title: Part-of-speech tagging
+  link_url: https://en.wikipedia.org/wiki/Part-of-speech_tagging
+related_terms:
+- natural-language-processing
+title: Part-of-Speech (POS) Tagging
 ---
 Part-of-Speech tagging is the process of reading
 natural language text and assigning parts of speech to each

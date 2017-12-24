@@ -1,10 +1,12 @@
 ---
-title: Activation function
-related_terms:
- - neural-network
 references:
- - "[Activation function - Wikipedia](https://en.wikipedia.org/wiki/Activation_function)"
- - "[Commonly used activation functions - Stanford CS231n notes](http://cs231n.github.io/neural-networks-1/#actfun)"
+- link_title: Activation function - Wikipedia
+  link_url: https://en.wikipedia.org/wiki/Activation_function
+- link_title: Commonly used activation functions - Stanford CS231n notes
+  link_url: http://cs231n.github.io/neural-networks-1/#actfun
+related_terms:
+- neural-network
+title: Activation function
 ---
 In neural networks, an activation function defines
 the output of a neuron.
