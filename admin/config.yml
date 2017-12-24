@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: images
+collections:
+  name: terms
+  label: Terms
+  folder: terms
+  create: true
+  slug: "{{slug}}"
+  fields:
+    - label: Title
+      name: title
+      widget: string
+      required: true
+    - label: Related Terms
+      name: related_terms
+      widget: relation
+      collection: terms
+      searchFields: [title, slug]
+      valueField: slug
+    - label: References
+      name: new_references
+      widget: list
+      fields:
+        - label: Link Title
+          name: link_title
+          widget: string
+        - label: Link URL
+          name: link_url
+          widget: string
