@@ -2,7 +2,9 @@
   <h2>References</h2>
   <ul>
   {% for ref in include.page.references %}
-    <li>{{ ref | markdownify | remove: "<p>" | remove: "</p>" }}</li>
+    {% assign link_parts_1 = ref.link_url | split: "://" %}
+    {% assign link_base_url = link_parts_1[1] | split: "/" | first %}
+    <li><a href="{{ ref.link_url }}">{{ ref.link_title }} <code>({{ link_base_url }})</code></a></li>
   {% endfor %}
   </ul>
 {% endif %}
