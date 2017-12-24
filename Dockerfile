@@ -1,17 +1,17 @@
-FROM ruby:alpine
+FROM bitnami/minideb:stretch
+
 EXPOSE 4000
-# Add key for pandoc packager
-COPY build/conor@conr.ca-584aeee5.rsa.pub /etc/apk/keys
-# Install Pandoc, Ruby, and build tools
-RUN echo https://conoria.gitlab.io/alpine-pandoc/ >> /etc/apk/repositories &&\
-  echo "@testing http://nl.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories &&\
-  apk add --update --no-cache \
-  build-base \
-  cmark@testing \
-  pandoc \
-  pandoc-citeproc \
-  ruby-dev
-COPY jekyll/content/Gemfile /jekyll/content/
+RUN install_packages build-essential bundler pandoc pandoc-citeproc ruby-dev zlib1g-dev
+
+# Without these lines, minideb will default to the POSIX
+# locale and choke on any UTF-8 we have.
+RUN install_packages locales
+RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
+  dpkg-reconfigure --frontend=noninteractive locales && \
+  update-locale LANG=en_US.UTF-8
+ENV LANG en_US.UTF-8
+
+COPY jekyll/content/Gemfile /jekyll/content/Gemfile
 WORKDIR /jekyll/content
 RUN bundle install
 COPY build/entrypoint.sh /bin
