@@ -5,7 +5,7 @@ related_terms:
  - neural-network
  - long-short-term-memory
 references:
- - "[Neural Turing Machine - Wikipedia](hhttps://en.wikipedia.org/wiki/Neural_Turing_machine)"
+ - "[Neural Turing Machine - Wikipedia](https://en.wikipedia.org/wiki/Neural_Turing_machine)"
  - "[Neural Turing Machines](https://arxiv.org/pdf/1410.5401.pdf)"
 ---
 
