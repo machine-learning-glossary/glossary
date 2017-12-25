@@ -1,7 +1,7 @@
 ---
-title: Jaccard index
+title: Jaccard index (intersection over union)
 ---
-The Jaccard index is used to calculate the similarity or difference
+The *Jaccard index*--otherwise known as *intersection over union*--is used to calculate the similarity or difference
 of sample sets.
 
 $$

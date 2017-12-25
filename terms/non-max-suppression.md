@@ -3,7 +3,7 @@ title: Non-max suppression
 related_terms:
  - bounding-box
  - computer-vision
- - intersection-over-union-iou
+ - jaccard-index
 references:
  - link_title: Non-max suppression - Computer Vision - deeplearning.ai
    link_url: https://www.coursera.org/learn/convolutional-neural-networks/lecture/dvrjH/non-max-suppression
@@ -23,3 +23,8 @@ might identify a single object using multiple overlapping bounding boxes.
 The bounding box with the highest prediction probability is kept,
 and the *overlapping* boxes are removed in favor of the kept box.
 Other boxes may be unaffected by non-max suppression if they are too far away.
+
+In the case of bounding boxes, non-max suppression is said to
+prune low-confidence bounding boxes that have a high
+[intersection over union](/terms/jaccard-index/)
+with the highest-confidence bounding box they intersect with.
