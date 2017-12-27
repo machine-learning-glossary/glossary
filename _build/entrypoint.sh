@@ -8,9 +8,9 @@ then
 elif [ "$1" = "deploy" ]
 then
 	echo "Starting build..."
-	jekyll build --source /jekyll
+	jekyll build
 	echo 'Completed build. starting algolia push...'
-	jekyll algolia push --source /jekyll
+	jekyll algolia push
 	echo "Completed algolia push, starting deploy..."
 	exec jekyll-s3 --headless
 else
