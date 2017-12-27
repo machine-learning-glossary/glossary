@@ -1,3 +1,8 @@
 [build]
-  command = "jekyll build && jekyll algolia"
+  command = "jekyll build"
   publish = "_site"
+
+[context.production]
+  # Only update the Algolia search index for production builds.
+  # Deploy previews and branch builds shouldn't be indexed.
+  command = "jekyll build && jekyll algolia"
