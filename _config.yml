@@ -28,8 +28,7 @@ gems:
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-pandoc
-  - jekyll-s3
-  - algoliasearch-jekyll
+  - jekyll-algolia
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -39,6 +38,8 @@ exclude:
   - serve.sh
 
 algolia:
+  application_id: O2TYYMG19M
+  index_name: mlg
   record_css_selector: "p,ul,ol,li,blockquote"
   excluded_files:
     - index.md

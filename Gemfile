@@ -9,8 +9,7 @@ group :jekyll_plugins do
     gem "jekyll-last-modified-at"
     gem "jekyll-sitemap"
     gem "jekyll-pandoc"
-    gem "jekyll-s3"
-    gem 'algoliasearch-jekyll', '~> 0.8.0'
+    gem 'jekyll-algolia', '~> 1.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
