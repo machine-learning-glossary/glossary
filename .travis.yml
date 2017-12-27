@@ -5,12 +5,8 @@ services:
 
 language: generic
 
-branches:
-  only:
-    - master
-
 before_install:
  - source ./_build/install-git-lfs.sh
  - git lfs pull
  - ./build.sh
- - ./_build/deploy.sh
+ - docker run -v $PWD:/jekyll --rm jekyll build
