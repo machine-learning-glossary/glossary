@@ -82,10 +82,14 @@ figcaption {
 }
 
 /* Style for Algolia highlighted search results. */
-.algolia__result-highlight {
+.ais-Highlight {
     background-color: yellow;
 }
 
 .ais-search-box--powered-by {
   color: white;
-};
+}
+
+.ais-infinite-hits--item > p {
+  display: inline;
+}
