@@ -88,4 +88,8 @@ figcaption {
 
 .ais-search-box--powered-by {
   color: white;
-};
+}
+
+.ais-infinite-hits--item > p {
+  display: inline;
+}

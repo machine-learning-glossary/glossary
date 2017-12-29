@@ -1,6 +1,6 @@
 var results_entry =
-  '<h1 class="f3 f2-m f1-l"><a href="{{ url }}">{{{ _highlightResult.title.value }}}</a></h2>' +
-  '{{{ _highlightResult.html.value }}}';
+  '<h1 class="f3 f2-m f2-l"><a href="{{ url }}">{{{ _highlightResult.title.value }}}</a></h2>' +
+  '[...]{{{ _highlightResult.html.value }}}[...]';
 
 var searchFunction = function(helper) {
     container = document.getElementById('hitscontainercontainer');
