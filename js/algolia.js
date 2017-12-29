@@ -1,6 +1,6 @@
 var results_entry =
   '<h1 class="f3 f2-m f1-l"><a href="{{ url }}">{{{ _highlightResult.title.value }}}</a></h2>' +
-  '<p>{{{ _highlightResult.html.value }}}[...]</p>';
+  '{{{ _highlightResult.html.value }}}';
 
 var searchFunction = function(helper) {
     container = document.getElementById('hitscontainercontainer');
@@ -10,6 +10,8 @@ var searchFunction = function(helper) {
     }
     helper.search();
     container.style.display = 'block';
+    // Re-render mathematics present in the results.
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 };
 
 var search = instantsearch({
