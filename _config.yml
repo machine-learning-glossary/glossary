@@ -13,6 +13,7 @@ defaults:
       path: "terms"
     values:
       layout: page
+      toc: true
 pandoc:
   extensions:
     - normalize
@@ -36,6 +37,10 @@ exclude:
   - Dockerfile
   - build.sh
   - serve.sh
+
+toc:
+  min_level: 1 # default: 1
+  max_level: 3 # default: 6
 
 algolia:
   application_id: O2TYYMG19M

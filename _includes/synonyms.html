@@ -1,7 +1,8 @@
+  {% assign header = include.header | default: "h2" %}
   {% assign slug = include.page.url | split: "/" | last %}
   {% assign synonyms = site.pages | where_exp: "item": "item.destination == slug" %}
   {% if synonyms.size > 0 %}
-  <h2>Synonyms</h2>
+  <{{header}}>Synonyms</{{header}}>
   <ul>
   {% for synonym in synonyms %}
     <li>{{ synonym.title }}</li>
