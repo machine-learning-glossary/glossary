@@ -1,5 +1,6 @@
+ {% assign header = include.header | default: "h2" %}
 {% if include.page.references %}
-  <h2>References</h2>
+  <{{ header }}>References</{{ header }}>
   <ul>
   {% for ref in include.page.references %}
     {% assign link_parts_1 = ref.link_url | split: "://" %}

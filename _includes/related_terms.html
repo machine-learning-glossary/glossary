@@ -1,3 +1,4 @@
+ {% assign header = include.header | default: "h2" %}
 {% assign page_filename = include.page.path | split: "/" | last | split: "." | first %}
 {% capture outbound_link_term_urls_str %}{% for term in page.related_terms %}/terms/{{term}}/<br>{% endfor %}
 {% endcapture %}
@@ -30,7 +31,7 @@
 {% endfor %}
 {% endcapture %}
 {% if display_the_terms %}
-<h2>Related Terms</h2>
+<{{ header }}>Related Terms</{{ header }}>
 <ul>
     {{ term_list }}
 </ul>
