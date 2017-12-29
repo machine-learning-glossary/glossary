@@ -82,7 +82,7 @@ figcaption {
 }
 
 /* Style for Algolia highlighted search results. */
-.algolia__result-highlight {
+.ais-Highlight {
     background-color: yellow;
 }
 
