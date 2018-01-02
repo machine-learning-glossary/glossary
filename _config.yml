@@ -24,7 +24,6 @@ permalink: pretty
 markdown: Pandoc
 #theme: minima
 gems:
-  - jekyll-toc
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-pandoc

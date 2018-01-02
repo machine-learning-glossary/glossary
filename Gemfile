@@ -5,7 +5,6 @@ gem "sass", "3.4.23"
 gem "nokogiri", " ~> 1.8.1"  # to avoid versions with CVE-2017-9050
 
 group :jekyll_plugins do
-    gem "jekyll-toc"
     gem "jekyll-last-modified-at"
     gem "jekyll-sitemap"
     gem "jekyll-pandoc"
