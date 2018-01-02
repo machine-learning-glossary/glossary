@@ -15,6 +15,7 @@ is designed to optimize a neural network that produces
 embeddings used for comparison.
 
 The loss function operates on triplets, which are three examples from the dataset:
+
  - $x_i^a$ -- an *anchor* example. In the context of FaceNet, $x_i^a$ is a photograph of a person's face.
  - $x_i^p$ -- a *positive* example that has the same identity as the anchor. In FaceNet, this is a second picture of the same person as the picture from the anchor example.
   - $x_i^n$ -- a *negative* example that represents a different entity. For FaceNet, this would be an image of a second person--someone different than the person represented by the anchor and positive examples.
@@ -48,7 +49,7 @@ $$
 \right ]_+
 $$
 
-the $[x]_+$ operator stands for $\max(0,x)$[3].
+the $[x]_+$ operator [stands for][3] $\max(0,x)$.
 
 ## Triplet selection
 
