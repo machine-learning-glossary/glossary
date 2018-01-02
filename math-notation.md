@@ -40,6 +40,11 @@ Put another way, $a \oplus b$ will be false when both $a$ and $b$ are false,
 or when both $a$ and $b$ are true. See [Exclusive or][6] on Wikipedia for more
 information.
 
+# $[x]_+$ , bracket operator, max operator
+
+The bracket operator $[x]_+$ where an expression $x$ is surrounded by a plus sign and a subscript is equivalent to $\max(0,X)$. See [8] for more information.
+
+
 [1]: https://math.stackexchange.com/questions/815315/what-does-a-dot-in-a-circle-mean "What does a dot in a circle mean? - Mathematics StackExchange"
 [2]: https://en.wikipedia.org/wiki/Sigma#Lower-case "Scientific and mathematical uses for lower-case sigma - Wikipedia"
 [3]: https://en.wikipedia.org/wiki/Sigmoid_function "Sigmoid function - Wikipedia"
@@ -47,3 +52,4 @@ information.
 [5]: https://math.stackexchange.com/questions/1795287/what-does-the-middle-dot-in-parentheses-mean "What does the middle dot in parentheses mean? - Mathematics StackExchange"
 [6]: https://en.wikipedia.org/wiki/Exclusive_or "Exclusive or - Wikipedia"
 [7]: /terms/standard-deviation/
+[8]: https://math.stackexchange.com/questions/215211/meaning-of-mathematical-operator-that-consists-of-square-brackets-with-a-plus-si
