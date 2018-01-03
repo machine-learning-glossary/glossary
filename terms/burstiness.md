@@ -20,6 +20,7 @@ of burstiness:
 
 Additionally, burstiness also tells us that later appearances of a word are [less significant][3]
 than the first appearance.
+
 > If a term is used once in a document, then it is likely to be used again. This phenomenon is called burstiness, and it implies that the second and later appearances of a word are less significant than the first appearance.
 
 [1]: https://web.stanford.edu/~gdoyle/papers/doyle-elkan-2009-icml-paper.pdf
