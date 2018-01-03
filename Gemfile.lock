@@ -47,8 +47,6 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (1.1.1)
       jekyll (~> 3.3)
-    jekyll-toc (0.4.0)
-      nokogiri (~> 1.6)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     json (2.1.0)
@@ -85,7 +83,6 @@ DEPENDENCIES
   jekyll-last-modified-at
   jekyll-pandoc
   jekyll-sitemap
-  jekyll-toc
   nokogiri (~> 1.8.1)
   sass (= 3.4.23)
   tzinfo-data
