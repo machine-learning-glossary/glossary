@@ -35,6 +35,12 @@ exclude:
   - Dockerfile
   - build.sh
   - serve.sh
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - DEPENDENCIES.md
+  - LICENSE.md
+  - README.md
+  - netlify.toml
 
 algolia:
   application_id: O2TYYMG19M
