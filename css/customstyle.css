@@ -4,6 +4,9 @@
     {
         display: none !important;
     }
+    body {
+      font-size: 90%;
+    }
     h1 {
       font-size: 1.3em;
     }
