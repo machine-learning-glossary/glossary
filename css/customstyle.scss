@@ -1,0 +1,106 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+
+@import "tachyons";
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    body {
+      font-size: 90%;
+    }
+    h1 {
+      font-size: 1.3em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h3 {
+      font-size: 1.1em;
+    }
+    h4, h5, h6 {
+      font-size: 1em;
+    }
+}
+
+body{
+  font-size: 120%;
+}
+blockquote {
+    font-family: athelas, georgia, serif;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    margin-top: 0;
+    color: rgba(0, 0, 0, .9);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: #357edd;
+    border-width: .25rem;
+}
+
+/*
+
+   LINKS
+   Docs: http://tachyons.io/docs/elements/links/
+
+*/
+
+a {
+  text-decoration: none;
+  transition: color .15s ease-in;
+}
+
+a:link,
+a:visited {
+  transition: color .15s ease-in;
+}
+a:hover   {
+  text-decoration: underline;
+  transition: color .15s ease-in;
+  color: #900;
+}
+a:active  {
+  transition: color .15s ease-in;
+}
+a:focus   {
+  transition: color .15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+a > code {
+  font-size: x-small;
+}
+
+/* Style for images and figures */
+
+figure {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+  text-align:center;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 90%;
+}
+
+/* Style for Algolia highlighted search results. */
+.ais-Highlight {
+    background-color: yellow;
+}
+
+.ais-search-box--powered-by {
+  color: white;
+}
+
+.ais-infinite-hits--item > p {
+  display: inline;
+}
