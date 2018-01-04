@@ -11,7 +11,7 @@
         {% assign display_the_terms = true %}
         {% if include.local %}
             {% assign slug = term.url | split: "/" | last %}
-            {% assign url = "#" | append: slug %}
+            {% assign url = "#" | append: slug | append: '/' %}
         {% else %}
             {% assign url = term.url %}
         {% endif %}

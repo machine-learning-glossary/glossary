@@ -6,13 +6,13 @@ title: All Words
 {% for term in terms %}
   {% if term.title %}
     {% assign link_name = term.url | split: "/" | last %}
-    <h1><a name="{{ link_name }}" href="{{ term.url }}">{{ term.title }}</a></h1>
+    <h1><a name="{{ link_name }}/" href="{{ term.url }}">{{ term.title }}</a></h1>
     {% if term.layout == "redirect" %}
       {% assign destination_url = "/terms/" | append: term.destination | append: "/" %}
       {% assign destination = terms | where_exp: "item": "item.url == destination_url" | first %}
-      See <a href="#{{ term.destination }}">{{ destination.title }}</a>.
+      See <a href="#{{ term.destination }}/">{{ destination.title }}</a>.
     {% else %}
-      {{ term.content | markdownify }}
+      {{ term.content | markdownify | replace: 'href="/terms/', 'href="#' }}
       {% include synonyms.html page=term %}
       {% include related_terms.html page=term local=true %}
       {% include references.html page=term %}
