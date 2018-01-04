@@ -4,7 +4,7 @@
 ---
 
 
-@import "tachyons";
+@import "tachyons/tachyons";
 
 @media print
 {
@@ -12,73 +12,106 @@
     {
         display: none !important;
     }
-    body {
-      font-size: 90%;
-    }
-    h1 {
-      font-size: 1.3em;
-    }
-    h2 {
-      font-size: 1.2em;
-    }
-    h3 {
-      font-size: 1.1em;
-    }
-    h4, h5, h6 {
-      font-size: 1em;
-    }
 }
 
-body{
-  font-size: 120%;
+/* Banners */
+.banner {
+  @extend .flex, .items-center, .justify-center, .pa4;
+  svg {
+    @extend .w1;
+  }
+  span {
+    @extend .lh-title, .ml3;
+  }
+  @media print {
+    display: none;
+  }
 }
+
+.banner-default {
+  @extend .bg-lightest-blue, .navy;
+}
+
+.banner-needs-review, .banner-incomplete {
+  @extend .bg-washed-red;
+}
+
+/* Body content. Now we're styling Pandoc output. */
+article {
+  @extend .f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend .sans-serif;
+}
+
+h1 {
+  @extend .f1;
+}
+h2 {
+  @extend .f2;
+}
+h3 {
+  @extend .f3;
+}
+h4 {
+  @extend .f4;
+}
+h5 {
+  @extend .f5;
+}
+h6 {
+  @extend .f6;
+}
+  /* Quotes */
 blockquote {
-    font-family: athelas, georgia, serif;
-    padding-left: 2rem;
-    margin-left: 2rem;
-    margin-top: 0;
-    color: rgba(0, 0, 0, .9);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-color: #357edd;
-    border-width: .25rem;
+  @extend .athelas, .ml4, .mt0, .pl4, .black-90, .bl, .bw2, .b--blue;
+  p {
+    @extend .f5, .f4-m, .f3-l, .lh-copy, .measure, .mt0;
+  }
 }
 
-/*
+  /* Tables */
+table {
+  @extend .f6, .w-100, .mw8, .mt4, .center, .ba, .br2, .b--dark-gray;
+  caption {
+    @extend .f4, .b;
+  }
+  tr {
+    @extend .stripe-dark;
+  }
 
-   LINKS
-   Docs: http://tachyons.io/docs/elements/links/
+  th {
+    @extend .fw6, .tl, .pa3, .bg-white;
+  }
 
-*/
+  tbody {
+    @extend .lh-copy;
+  }
 
-a {
-  text-decoration: none;
-  transition: color .15s ease-in;
+  td {
+    @extend .pa3;
+  }
 }
 
-a:link,
-a:visited {
-  transition: color .15s ease-in;
+dl {
+  @extend .pa3;
 }
-a:hover   {
-  text-decoration: underline;
-  transition: color .15s ease-in;
-  color: #900;
-}
-a:active  {
-  transition: color .15s ease-in;
-}
-a:focus   {
-  transition: color .15s ease-in;
-  outline: 1px dotted currentColor;
+dt {
+  @extend .b, .f4, .mt4;
 }
 
-a > code {
-  font-size: x-small;
+dd {
+  @extend .mb4, .f5;
+}
+
+  /* Figure captions */
+figcaption {
+  @extend .athelas, .f6;
 }
 
 /* Style for images and figures */
-
+/*
 figure {
   border: 1px solid black;
   border-radius: 5px;
@@ -90,6 +123,24 @@ figure {
 figcaption {
   font-weight: bold;
   font-size: 90%;
+}
+*/
+
+figure {
+  @extend .tc, .ma4-ns, .pa2, .ba, .br2, .b--dark-gray;
+}
+
+figcaption {
+  @extend .f6, .ma2;
+}
+
+footer {
+  @extend .f6, .lh-copy, .mt0, .tc;
+
+  @media print {
+    display: none;
+  }
+
 }
 
 /* Style for Algolia highlighted search results. */
