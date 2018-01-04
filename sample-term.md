@@ -10,6 +10,7 @@ references:
    link_url: https://google.com
  - link_title: So is Yahoo
    link_url: https://yahoo.com
+destination: sample-term
 ---
 This is a sample term that doesn't do anything real in machine learning glossary.
 The point is to test the HTML we're generating.
