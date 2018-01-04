@@ -1,5 +1,5 @@
 var results_entry =
-  '<h1><a href="{{ url }}">{{{ _highlightResult.title.value }}}</a></h2>' +
+  '<h3><a href="{{ url }}">{{{ _highlightResult.title.value }}}</a></h3>' +
   '[...]{{{ _highlightResult.html.value }}}[...]';
 
 var searchFunction = function(helper) {
