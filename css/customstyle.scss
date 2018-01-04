@@ -14,9 +14,25 @@
     }
 }
 
+body {
+  @extend .athelas;
+}
+
+/* Navigation */
+
+#mainheader {
+  @extend .sans-serif, .bg-black-90, .w-100, .ph3, .pv3, .pv4-ns, .ph4-m, .ph5-l;
+  nav {
+    @extend .f6, .fw6, .ttu, .tracked;
+  }
+  a {
+    @extend .link, .dim, .white, .dib, .mr3, .mt1;
+  }
+}
+
 /* Banners */
 .banner {
-  @extend .flex, .items-center, .justify-center, .pa4;
+  @extend .serif, .flex, .items-center, .justify-center, .pa4;
   svg {
     @extend .w1;
   }
@@ -37,43 +53,72 @@
 }
 
 /* Body content. Now we're styling Pandoc output. */
-article {
-  @extend .f5;
+
+#main {
+  @extend .ph4, .f4;
+  @media print {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+#article-container {
+  @extend .cf;
 }
 
 h1, h2, h3, h4, h5, h6 {
   @extend .sans-serif;
 }
-
 h1 {
-  @extend .f1;
+@extend .f1-ns, .f2;
 }
 h2 {
-  @extend .f2;
+  @extend .f2-ns, .f3;
 }
 h3 {
-  @extend .f3;
+  @extend .f3-ns, .f4;
 }
 h4 {
-  @extend .f4;
+  @extend .f4-ns, .f5;
 }
 h5 {
-  @extend .f5;
+  @extend .f5-ns, .f6;
 }
 h6 {
   @extend .f6;
 }
-  /* Quotes */
-blockquote {
-  @extend .athelas, .ml4, .mt0, .pl4, .black-90, .bl, .bw2, .b--blue;
-  p {
-    @extend .f5, .f4-m, .f3-l, .lh-copy, .measure, .mt0;
+
+article {
+  @extend .fl, .w-100, .w-75-m, .w-75-l, .pa1;
+  h1 {
+    @extend .f2-ns, .f3;
   }
 }
 
-  /* Tables */
+aside {
+  @extend .fl, .w-100, .w-75-m, .w-25-l;
+  h1 {
+  @extend .f3-ns, .f4;
+  }
+  h2 {
+    @extend .f3-ns, .f4;
+  }
+  h3 {
+    @extend .f4-ns, .f5;
+  }
+  h4 {
+    @extend .f5-ns, .f6;
+  }
+  h5 {
+    @extend .f6;
+  }
+  h6 {
+    @extend .f6;
+  }
+}
+
 table {
-  @extend .f6, .w-100, .mw8, .mt4, .center, .ba, .br2, .b--dark-gray;
+  @extend .f5, .w-100, .mw8, .mt4, .center, .ba, .br2, .b--dark-gray;
   caption {
     @extend .f4, .b;
   }
@@ -94,20 +139,32 @@ table {
   }
 }
 
+  /* Quotes */
+blockquote {
+  @extend .ml4, .mt0, .pl4, .black-90, .bl, .bw2, .b--blue;
+  p {
+    @extend .f5, .f4-m, .f3-l, .lh-copy, .measure, .mt0;
+  }
+}
+
+code {
+  @extend .f6;
+}
+
 dl {
   @extend .pa3;
 }
 dt {
-  @extend .b, .f4, .mt4;
+  @extend .b;
 }
 
 dd {
-  @extend .mb4, .f5;
+  @extend .mb4;
 }
 
   /* Figure captions */
 figcaption {
-  @extend .athelas, .f6;
+  @extend .f6;
 }
 
 /* Style for images and figures */
@@ -154,4 +211,15 @@ footer {
 
 .ais-infinite-hits--item > p {
   display: inline;
+}
+
+.ais-infinite-hits--showmore {
+  @extend .mt4;
+  button {
+    @extend .f6, .grow, .no-underline, .br-pill, .ph3, .pv2, .mb2, .dib, .white, .bg-dark-blue;
+  }
+}
+
+.ais-search-box--input {
+  @extend .w-100, .w-75-m, .w-50-l;
 }
