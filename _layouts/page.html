@@ -1,17 +1,22 @@
 ---
-#layout: compress
 ---
 {% include header.html %}
-<article>
+<div id="main">
   <div id="hitscontainercontainer">
     <h1>Search Results</h1>
     <div id="hitscontainer">
     </div>
   </div>
   <h1>{{ page.title }}</h1>
-  {% include synonyms.html page=page %}
-  {% include related_terms.html page=page %}
-  {% include references.html page=page %}
-  {{ content }}
-</article>
+  <div id="article-container">
+    <article>
+    {{ content }}
+    </article>
+    <aside>
+      {% include synonyms.html page=page %}
+      {% include related_terms.html page=page %}
+      {% include references.html page=page %}
+    </aside>
+  </div>
+</div>
 {% include footer.html %}

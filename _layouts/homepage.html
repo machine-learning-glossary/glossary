@@ -12,25 +12,29 @@ layout: compress
     {% endif %}
   {% endfor %}
 {% endcapture %}
-<article>
+<div id="main">
   <div id="hitscontainercontainer">
     <h1>Search Results</h1>
     <div id="hitscontainer">
     </div>
   </div>
   <h1>{{ site.title }}</h1>
-  <p>
-    {{ site.description }}
-  </p>
-  <h2>Useful Links</h2>
-  <ul>
-    <li><a href="/math-notation/">Mathematical Notation and Definitions</a></li>
-    <li><a href="/acronyms/">List of Acronyms</a></li>
-  </ul>
-    <h2>Terms</h2>
-    <p>{{ filled_pages }} terms defined below, and <a href="/meta/unfinished/">{{ pages.size | minus: filled_pages }} undefined terms</a>.</p>
-  <ul>
-    {{ term_list }}
-  </ul>
-</article>
+  <div id="article-container">
+    <article>
+      <p>
+        {{ site.description }}
+      </p>
+      <h2>Useful Links</h2>
+      <ul>
+        <li><a href="/math-notation/">Mathematical Notation and Definitions</a></li>
+        <li><a href="/acronyms/">List of Acronyms</a></li>
+      </ul>
+      <h2>Terms</h2>
+      <p>{{ filled_pages }} terms defined below, and <a href="/meta/unfinished/">{{       pages.size | minus: filled_pages }} undefined terms</a>.</p>
+      <ul>
+        {{ term_list }}
+      </ul>
+    </article>
+  </div>
+</div>
 {% include footer.html %}
