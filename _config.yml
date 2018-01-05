@@ -18,7 +18,8 @@ pandoc:
     - normalize
     - smart
     - mathjax
-
+sass:
+  style: compressed
 permalink: pretty
 # Build settings
 markdown: Pandoc
