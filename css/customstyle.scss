@@ -26,7 +26,7 @@ body {
     @extend .f6, .fw6, .ttu, .tracked;
   }
   a {
-    @extend .link, .dim, .white, .dib, .mr3, .mt1;
+    @extend .dim, .white, .dib, .mr3, .mt1;
   }
 }
 
@@ -53,6 +53,10 @@ body {
 }
 
 /* Body content. Now we're styling Pandoc output. */
+
+a {
+  @extend .link;
+}
 
 #main {
   @extend .ph4, .f4;
@@ -162,6 +166,10 @@ dd {
   @extend .mb4;
 }
 
+
+li {
+  @extend .mb1;
+}
   /* Figure captions */
 figcaption {
   @extend .f6;
