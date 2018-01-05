@@ -1,0 +1,233 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+
+@import "tachyons/tachyons";
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+body {
+  @extend .athelas;
+}
+
+/* Navigation */
+
+#mainheader {
+  @extend .sans-serif, .bg-black-90, .w-100, .ph3, .pv3, .pv4-ns, .ph4-m, .ph5-l;
+  nav {
+    @extend .f6, .fw6, .ttu, .tracked;
+  }
+  a {
+    @extend .dim, .white, .dib, .mr3, .mt1;
+  }
+}
+
+/* Banners */
+.banner {
+  @extend .serif, .flex, .items-center, .justify-center, .pa4;
+  svg {
+    @extend .w1;
+  }
+  span {
+    @extend .lh-title, .ml3;
+  }
+  @media print {
+    display: none;
+  }
+}
+
+.banner-default {
+  @extend .bg-lightest-blue, .navy;
+}
+
+.banner-needs-review, .banner-incomplete {
+  @extend .bg-washed-red;
+}
+
+/* Body content. Now we're styling Pandoc output. */
+
+a {
+  @extend .link;
+}
+
+#main {
+  @extend .ph4, .f4;
+  @media print {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+#article-container {
+  @extend .cf;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend .sans-serif;
+}
+h1 {
+@extend .f1-ns, .f2;
+}
+h2 {
+  @extend .f2-ns, .f3;
+}
+h3 {
+  @extend .f3-ns, .f4;
+}
+h4 {
+  @extend .f4-ns, .f5;
+}
+h5 {
+  @extend .f5-ns, .f6;
+}
+h6 {
+  @extend .f6;
+}
+
+article {
+  @extend .fl, .w-100, .w-75-m, .w-75-l, .pa1;
+  h1 {
+    @extend .f2-ns, .f3;
+  }
+}
+
+aside {
+  @extend .fl, .w-100, .w-75-m, .w-25-l;
+  h1 {
+  @extend .f3-ns, .f4;
+  }
+  h2 {
+    @extend .f3-ns, .f4;
+  }
+  h3 {
+    @extend .f4-ns, .f5;
+  }
+  h4 {
+    @extend .f5-ns, .f6;
+  }
+  h5 {
+    @extend .f6;
+  }
+  h6 {
+    @extend .f6;
+  }
+}
+
+table {
+  @extend .f5, .w-100, .mw8, .mt4, .center, .ba, .br2, .b--dark-gray;
+  caption {
+    @extend .f4, .b;
+  }
+  tr {
+    @extend .stripe-dark;
+  }
+
+  th {
+    @extend .fw6, .tl, .pa3, .bg-white;
+  }
+
+  tbody {
+    @extend .lh-copy;
+  }
+
+  td {
+    @extend .pa3;
+  }
+}
+
+  /* Quotes */
+blockquote {
+  @extend .ml4, .mt0, .pl4, .black-90, .bl, .bw2, .b--blue;
+  p {
+    @extend .f5, .f4-m, .f3-l, .lh-copy, .measure, .mt0;
+  }
+}
+
+code {
+  @extend .f6;
+}
+
+dl {
+  @extend .pa3;
+}
+dt {
+  @extend .b;
+}
+
+dd {
+  @extend .mb4;
+}
+
+
+li {
+  @extend .mb1;
+}
+  /* Figure captions */
+figcaption {
+  @extend .f6;
+}
+
+/* Style for images and figures */
+/*
+figure {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+  text-align:center;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 90%;
+}
+*/
+
+figure {
+  @extend .tc, .ma4-ns, .pa2, .ba, .br2, .b--dark-gray;
+}
+
+figcaption {
+  @extend .f6, .ma2;
+}
+
+footer {
+  @extend .f6, .lh-copy, .mt0, .tc;
+
+  @media print {
+    display: none;
+  }
+
+}
+
+/* Style for Algolia highlighted search results. */
+.ais-Highlight {
+    background-color: yellow;
+}
+
+.ais-search-box--powered-by {
+  color: white;
+}
+
+.ais-infinite-hits--item > p {
+  display: inline;
+}
+
+.ais-infinite-hits--showmore {
+  @extend .mt4;
+  button {
+    @extend .f6, .grow, .no-underline, .br-pill, .ph3, .pv2, .mb2, .dib, .white, .bg-dark-blue;
+  }
+}
+
+.ais-search-box--input {
+  @extend .w-100, .w-75-m, .w-50-l;
+}

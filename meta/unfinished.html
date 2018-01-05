@@ -6,28 +6,29 @@ title: "Meta: Unfinished Terms"
 This page contains links to terms that have short amounts of content. They
 should be expanded and turned into full-fledged glossary entries.
 </p>
-<table class="f6 w-100 mw8 center" cellspacing="0">
-<thead>
-<tr class="stripe-dark">
-    <th class="fw6 tl pa3 bg-white">Page Title</th>
-    <th class="fw6 tl pa3 bg-white">Character(s)</th>
-    <th class="fw6 tl pa3 bg-white">Reference(s)</th></tr>
-</thead>
-<tbody>
-{% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
-{% for page in pages %}
-    {% assign page_size = page.content | size %}
-    {% if page_size < site.small_page_size and page.layout != redirect %}
-<tr class="stripe-dark">
-    <td class="fw6 tl pa3 bg-white"><a href="{{ page.url }}">{{ page.title }}</a></td>
-{% assign references = 0 %}
-{% if page.references %}
-    {% assign references = page.references.size %}
-{% endif %}
-<td class="fw6 tl pa3 bg-white">{{ page.content | size }}</td>
-<td class="fw6 tl pa3 bg-white">{{ references }}</td>
-</tr>
-    {% endif %}
-{% endfor %}
-</tbody>
+<table>
+    <thead>
+        <tr>
+            <th>Page Title</th>
+            <th>Character(s)</th>
+            <th>Reference(s)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort: 'title' %}
+        {% for page in pages %}
+            {% assign page_size = page.content | size %}
+            {% if page_size < site.small_page_size and page.layout != redirect %}
+                <tr>
+                    <td><a href="{{ page.url }}">{{ page.title }}</a></td>
+                    {% assign references = 0 %}
+                    {% if page.references %}
+                        {% assign references = page.references.size %}
+                    {% endif %}
+                    <td>{{ page.content | size }}</td>
+                    <td>{{ references }}</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </tbody>
 </table>
