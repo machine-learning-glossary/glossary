@@ -2,6 +2,7 @@
 layout: compress
 ---
 {% include header.html %}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {% assign pages = site.pages | where_exp:"item","item.url contains 'terms/'" | sort_natural: 'title' %}
 {% capture term_list %}
 {% for page in pages %}
@@ -37,4 +38,14 @@ layout: compress
     </article>
   </div>
 </div>
+<script type="text/javascript">
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function (user) {
+      if (!user) {
+        window.netlifyIdentity.on("login",
+          function () { document.location.href = "/admin/"; });
+      }
+    });
+  }
+</script>
 {% include footer.html %}
