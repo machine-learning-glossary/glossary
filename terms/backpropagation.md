@@ -8,3 +8,4 @@ related_terms:
 - gradient-descent
 title: Backpropagation
 ---
+A technique to find good weight values in a neural network by trying different weights, and seeing if the change contributes positively to prediction quality.
