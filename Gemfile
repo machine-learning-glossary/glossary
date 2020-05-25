@@ -2,7 +2,7 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 gem "jekyll", "3.4.3"
 gem "sass", "3.4.23"
-gem "nokogiri", " ~> 1.8.1"  # to avoid versions with CVE-2017-9050
+gem "nokogiri", " ~> 1.10.9"
 
 group :jekyll_plugins do
     gem "jekyll-last-modified-at"
