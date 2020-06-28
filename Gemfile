@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
-gem "jekyll", ">= 4.0.1"
+gem "jekyll", "~> 3.8"
 gem "sass", "3.4.23"
-gem "nokogiri", " ~> 1.10.9"
+gem "nokogiri", "~> 1.8.2"
+gem "ffi", "~> 1.9.24"
 
 group :jekyll_plugins do
     gem "jekyll-last-modified-at"
