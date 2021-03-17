@@ -25,8 +25,8 @@ $f \times f$ filter $F$. The output dimension depends on two parameters -- paddi
 The dimensions for the output matrix $A * F$ will be
 
 $$
-\left \lfloor \frac{n + 2p - f}{s} \right \rfloor + 1 \times
-\left \lfloor \frac{n + 2p - f}{s} \right \rfloor + 1
+\left \lfloor \frac{n + 2p - f}{s} + 1 \right \rfloor \times
+\left \lfloor \frac{n + 2p - f}{s} + 1 \right \rfloor
 $$.
 
 In a [same convolution][3], $s = 1$ and $p = \frac{f - 1}{2}$.
