@@ -9,7 +9,7 @@ title: All Words
     <h1><a name="{{ link_name }}/" href="{{ term.url }}">{{ term.title }}</a></h1>
     {% if term.layout == "redirect" %}
       {% assign destination_url = "/terms/" | append: term.destination | append: "/" %}
-      {% assign destination = terms | where_exp: "item": "item.url == destination_url" | first %}
+      {% assign destination = terms | where_exp: "item", "item.url == destination_url" | first %}
       See <a href="#{{ term.destination }}/">{{ destination.title }}</a>.
     {% else %}
       {{ term.content | markdownify | replace: 'href="/terms/', 'href="#' }}
