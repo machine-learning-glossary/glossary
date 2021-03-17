@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
-gem "jekyll", "~> 3.8"
-gem "sass", "3.4.23"
-gem "nokogiri", "~> 1.11.0"
-gem "ffi", "~> 1.9.24"
+gem "jekyll", "~> 4.2"
+gem "nokogiri", "~> 1.11"
+gem "ffi", "~> 1.15"
 gem "kramdown", ">= 2.3.0"
 
 group :jekyll_plugins do
