@@ -16,8 +16,8 @@ For an $n \times n$ input matrix and an $f \times f$ filter, a valid convolution
 will return an output matrix of dimensions
 
 $$
-\left \lfloor \frac{n - f}{s} \right \rfloor + 1 \times
-\left \lfloor \frac{n - f}{s} \right \rfloor + 1
+\left \lfloor \frac{n - f}{s} + 1 \right \rfloor \times
+\left \lfloor \frac{n - f}{s} + 1 \right \rfloor 
 $$
 
 where $s$ is the [stride][3] length of the convolution.
