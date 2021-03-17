@@ -67,21 +67,10 @@ GEM
     listen (3.4.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-<<<<<<< Updated upstream
-    mercenary (0.3.6)
-    mini_portile2 (2.5.0)
-    nokogiri (1.11.0)
-      mini_portile2 (~> 2.5.0)
-      racc (~> 1.4)
-    nokogiri (1.11.0-x86_64-linux)
-=======
     mercenary (0.4.0)
     mini_portile2 (2.5.0)
     nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
-      racc (~> 1.4)
-    nokogiri (1.11.2-x86_64-linux)
->>>>>>> Stashed changes
       racc (~> 1.4)
     pandoc-ruby (2.1.4)
     pathutil (0.16.2)
@@ -105,7 +94,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86_64-linux
 
 DEPENDENCIES
   ffi (~> 1.15)
@@ -115,12 +103,11 @@ DEPENDENCIES
   jekyll-pandoc
   jekyll-sitemap
   kramdown (>= 2.3.0)
-  nokogiri (~> 1.11.0)
-  sass (= 3.4.23)
+  nokogiri (~> 1.11)
   tzinfo-data
 
 RUBY VERSION
    ruby 2.7.1p83
 
 BUNDLED WITH
-   2.2.14
+   2.1.4
