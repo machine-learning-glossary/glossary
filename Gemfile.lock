@@ -3,15 +3,15 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    algolia_html_extractor (2.6.2)
+    algolia_html_extractor (2.6.4)
       json (~> 2.0)
-      nokogiri (~> 1.10.4)
-    algoliasearch (1.27.4)
+      nokogiri (~> 1.10)
+    algoliasearch (1.27.5)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     colorator (1.1.0)
-    concurrent-ruby (1.1.7)
-    em-websocket (0.5.1)
+    concurrent-ruby (1.1.8)
+    em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
@@ -60,7 +60,7 @@ GEM
     kramdown (2.3.0)
       rexml
     liquid (4.0.3)
-    listen (3.2.1)
+    listen (3.4.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
@@ -71,19 +71,20 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     posix-spawn (0.3.15)
-    progressbar (1.10.1)
+    progressbar (1.11.0)
     public_suffix (4.0.6)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.23.0)
+    rouge (3.26.0)
     safe_yaml (1.0.5)
     sass (3.4.23)
     verbal_expressions (0.1.5)
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   ffi (~> 1.9.24)
@@ -98,7 +99,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.7.1p83
 
 BUNDLED WITH
-   1.13.6
+   2.2.14

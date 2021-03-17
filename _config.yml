@@ -15,16 +15,14 @@ defaults:
       layout: page
 pandoc:
   extensions:
-    - normalize
-    - smart
     - mathjax
 sass:
   style: compressed
 permalink: pretty
 # Build settings
 markdown: Pandoc
-#theme: minima
-gems:
+
+plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-pandoc
@@ -33,8 +31,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - Dockerfile
-  - build.sh
   - serve.sh
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
