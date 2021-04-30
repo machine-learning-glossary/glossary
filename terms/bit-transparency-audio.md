@@ -1,7 +1,8 @@
 ---
 title: Bit transparency (audio)
 references:
- - link_url: https://www.soundonsound.com/techniques/bit-transparency
+ - link_title: Bit Transparency
+   link_url: https://www.soundonsound.com/techniques/bit-transparency
 ---
 
 A digital audio system satisfies **bit transparency** if audio data can pass through the system without being changed.
