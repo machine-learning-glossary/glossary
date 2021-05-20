@@ -10,9 +10,9 @@ references:
 - link_title: Weak supervision - Wikipedia
   link_url: https://en.wikipedia.org/wiki/Weak_supervision
 related_terms:
- - active-learning
- - semi-supervised-learning
- - transfer-learning
+- active-learning
+- semi-supervised-learning
+- transfer-learning
 ---
 **Weak supervision** describes the use of noisy or error-prone data labels for training supervised learning models.
 
