@@ -1,5 +1,5 @@
 ---
-title: "Vector-Quantized Variational Autoencoders (VQ-VAE)
+title: "Vector-Quantized Variational Autoencoders (VQ-VAE)"
 references:
 - link_title: "Understanding VQ-VAE (DALL-E Explained Pt. 1) - Machine Learning @ Berkeley"
   link_url: https://ml.berkeley.edu/blog/posts/vq-vae/
