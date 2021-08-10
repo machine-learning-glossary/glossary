@@ -9,7 +9,7 @@ related_terms:
 - batch-normalization
 title: Internal covariate shift
 ---
-The term *interal covariate shift* comes from the paper
+The term **interal covariate shift** comes from the paper
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift][1].
 
 The authors' precise definition is:
