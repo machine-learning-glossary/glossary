@@ -20,6 +20,7 @@ becomes
  - `James is`
  - `is the`
  - `the best`
+ - `best person`
  - `person ever.`
  - `ever.<end>`
 
