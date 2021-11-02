@@ -42,8 +42,9 @@ If you are working on a classification problem with imbalanced classes--such as 
 If you are training a model on time series data, typically your goal is to predict something about the future using data from the past or present.
 
 In order to properly evaluate a time series model, your training/validation/test split must obey the "arrow of time":
-* All of the data samples in your validation dataset should be newer than your training dataset.
-* All of the data samples in your test dataset should be newer than your validation dataset.
+
+- All of the data samples in your validation dataset should be newer than your training dataset.
+- All of the data samples in your test dataset should be newer than your validation dataset.
 
 If your training dataset contains data samples that are newer than your validation dataset, then your model's validation accuracy will be misleadingly high. Your model is effectively *traveling backward in time* if it trains on new data and evaluates on old data.
 
@@ -56,8 +57,9 @@ Many people make the mistake of randomly shuffling the input dataset *before* sp
 However, when a machine learning model is deployed to the "real world" and is making predictions, typically the model will not perform any augmentation or regularization on its input. To mirror the real world, a model should not perform augmentation or regularization on the validation or test dataset.
 
 There are a few exceptions to the rule:
-* If the validation and/or test datasets are too small for a model to reliably evaluate, then it might make sense to use data augmentation to add data samples.
-* If the entire training dataset is computer-generated--like a dataset of images generated from a video game--then it may be reasonable for the validation and test datasets to also be entirely computer-generated.
+
+- If the validation and/or test datasets are too small for a model to reliably evaluate, then it might make sense to use data augmentation to add data samples.
+- If the entire training dataset is computer-generated--like a dataset of images generated from a video game--then it may be reasonable for the validation and test datasets to also be entirely computer-generated.
 
 
 [1]: /terms/overfitting/
