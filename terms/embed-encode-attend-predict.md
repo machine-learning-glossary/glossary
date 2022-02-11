@@ -17,7 +17,7 @@ language processing][1].
 The steps have the following meanings:
 
 1. **Embed** -- This is the process of turning text or
-sparse vectors into dense [word embeddigs](/terms/word-embedding/).
+sparse vectors into dense [word embeddings](/terms/word-embedding/).
 These embeddings are much easier to work with than other
 representations, and do an excellent job of capturing semantic
 information.
