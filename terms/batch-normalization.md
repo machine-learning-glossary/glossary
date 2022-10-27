@@ -11,3 +11,4 @@ references:
   link_url: http://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html
 title: Batch normalization
 ---
+Batch normalization is a technique used to improve the stability and performance of deep neural networks. It works by normalizing the input data at each layer, which allows the network to learn more effectively. Batch normalization has been shown to improve training times, accuracy, and robustness of deep neural networks.
