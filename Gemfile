@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 gem "jekyll", "~> 4.2"
-gem "nokogiri", "~> 1.12"
+gem "nokogiri", "~> 1.14"
 gem "ffi", "~> 1.15"
 gem "kramdown", ">= 2.3.0"
 
